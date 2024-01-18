@@ -2,4 +2,11 @@
 
 body {
 	margin: 0;
+	background-color: #ebded6;
+}
+
+.colour-container {
+	margin: 300px 600px 0px 0px;
+	padding: 50px;
+	background-color: #662d91;
 }

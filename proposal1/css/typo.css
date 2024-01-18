@@ -32,3 +32,11 @@ p {
 a {
 	font-family: "Vollkorn", serif;
 }
+
+ul {
+	list-style-type: upper-roman;
+}
+
+.lower {
+	list-style-type: lower-roman;
+}
