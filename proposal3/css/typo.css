@@ -1,28 +1,49 @@
 /* TYPOGRAPHY */
 
 h1 {
-	font-family: "century-gothic", sans-serif;
-	font-weight: 700;
+	font-family: "poppins", sans-serif;
+	font-weight: 400;
 	font-style: normal;
 }
 
 h2 {
+	font-family: "poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 h3 {
+	font-family: "poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 h4 {
+	font-family: "poppins", sans-serif;
+	font-weight: 200;
+	font-style: italic;
 }
 
 h5 {
+	font-family: "poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 h6 {
+	font-family: "poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 p {
+	font-family: "poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
