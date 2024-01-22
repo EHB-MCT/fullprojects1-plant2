@@ -1,0 +1,11 @@
+.nav-container {
+	display: flex;
+}
+.nav-item li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.nav-item a {
+	text-decoration: none;
+}
