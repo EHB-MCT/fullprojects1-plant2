@@ -1,0 +1,5 @@
+Oranje : #EF4F15 
+Oranje donker : #D36127 
+Background 
+Wit #FFF
+Donker grijs: #2D2D2D
