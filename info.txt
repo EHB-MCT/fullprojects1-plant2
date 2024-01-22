@@ -3,3 +3,8 @@ Oranje donker : #D36127
 Background 
 Wit #FFF
 Donker grijs: #2D2D2D
+
+afspraken:
+<div class= " 'naam'-container ">
+   <div class= " 'naam-item-naam">content</div>
+</div>
