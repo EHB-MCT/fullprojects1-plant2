@@ -8,3 +8,7 @@ afspraken:
 <div class= " 'naam'-container ">
    <div class= " 'naam-item-naam">content</div>
 </div>
+
+() binnen de folder
+./ 1 keer uit de folder
+../ 2 keer uit de folder
