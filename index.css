@@ -1,11 +1,25 @@
+body {
+    background-image:url(./images/MicrosoftTeams-image.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .container {
     display: flex;
+    flex-direction: column;
 }
 
 .quote-item {
-    
+    margin-left: 40px;
 }
 
 .name-item {
-
+    margin-top: 150px;
+    margin-left: 40%
 }
+.name-item2 {
+    margin-top:0cm;
+}
+
