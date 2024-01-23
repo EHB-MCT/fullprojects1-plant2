@@ -1,18 +1,27 @@
-.nav-container {
+.nav-list {
+	list-style: none;
+	padding: 0;
 	display: flex;
+	margin: 45px 0px 0px 0px;
 }
-.nav-item li {
-	display: inline-block;
-	list-style-type: none;
-	margin-right: 40px;
+
+.nav-list li {
+	padding: 10px;
+	margin-left: 40px;
 }
-.nav-item a {
+
+.nav-list li a {
 	text-decoration: none;
 	color: #2d2d2d;
 }
-.nav-item a:hover {
+
+.nav-list a:hover {
 	color: #ef4f15;
 }
 a.orange {
+	color: #ef4f15;
+}
+
+#active {
 	color: #ef4f15;
 }
