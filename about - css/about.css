@@ -1,1 +1,14 @@
- 
+.layout-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.text-container {
+	margin: 0vh 55vw 0vh 0vw;
+}
+
+.art-container {
+	padding: 100vh 0vw;
+	margin: 0px 0vw 0px 55vw;
+	background-color: #2d2d2d;
+}
