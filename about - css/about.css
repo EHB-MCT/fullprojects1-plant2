@@ -26,6 +26,7 @@ html {
 .right-content img {
 	width: fit-content;
 	height: 100vh;
+	margin-left: 100px;
 }
 
 @media screen and (max-width: 1180px) {
