@@ -17,17 +17,36 @@ html {
 }
 
 .right-container {
-	background-color: #2d2d2d;
-	/* Add styles for the right container */
+	display: flex;
+	flex-direction: column;
+}
+
+.right-content img {
+	width: auto;
+	height: auto;
 }
 
 .left-container {
 	display: flex;
 	flex-direction: column;
-	/* Add styles for the left container */
 }
 
 .left-content {
 	background-color: white;
-	margin: 0px 0px 0px 40px;
+}
+
+.left-content p {
+	margin: 100px 10px 25px 60px;
+	line-height: 1.6;
+	color: #ef4f15;
+}
+
+.buttons a {
+	margin: 0px 10px 0px 60px;
+	line-height: 1.6;
+	text-decoration: none;
+	padding: 15px 20px;
+	border-radius: 0;
+	color: white;
+	background-color: #2d2d2d;
 }
