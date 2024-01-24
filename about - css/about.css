@@ -1,3 +1,4 @@
+/* body and container */
 body,
 html {
 	height: 100%;
@@ -49,6 +50,8 @@ html {
 	line-height: 1.6;
 	color: #ef4f15;
 }
+
+/* buttons */
 
 .buttons a {
 	margin: 0px 10px 0px 60px;
