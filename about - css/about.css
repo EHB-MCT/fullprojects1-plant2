@@ -16,15 +16,24 @@ html {
 	height: 100%;
 }
 
+/* right container */
 .right-container {
 	display: flex;
 	flex-direction: column;
 }
 
 .right-content img {
-	width: auto;
-	height: auto;
+	width: fit-content;
+	height: 100vh;
 }
+
+@media screen and (max-width: 1180px) {
+	.right-container {
+		display: none;
+	}
+}
+
+/* left container */
 
 .left-container {
 	display: flex;
@@ -36,7 +45,7 @@ html {
 }
 
 .left-content p {
-	margin: 100px 10px 25px 60px;
+	margin: 100px 10px 100px 60px;
 	line-height: 1.6;
 	color: #ef4f15;
 }
@@ -45,8 +54,12 @@ html {
 	margin: 0px 10px 0px 60px;
 	line-height: 1.6;
 	text-decoration: none;
-	padding: 15px 20px;
+	padding: 15px 25px;
 	border-radius: 0;
 	color: white;
 	background-color: #2d2d2d;
+}
+
+.buttons a:hover {
+	transform: translateY(-2px);
 }
