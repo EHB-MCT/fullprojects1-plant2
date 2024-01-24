@@ -29,6 +29,10 @@
 	margin-right: 50px;
 }
 
+.logo:hover {
+	transform: translateY(-2px);
+}
+
 .nav-list a:hover {
 	color: #ef4f15;
 }
