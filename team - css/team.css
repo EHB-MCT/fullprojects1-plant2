@@ -1,7 +1,19 @@
 .table-container {
+	margin: 50px 0px 0px 50px;
 }
 
-.table-container th td {
-	padding-left: ;
-	border: none;
+th,
+td {
+	font-family: "poppins", sans-serif;
+	font-style: normal;
+	padding: 5px 50px;
+}
+
+#team {
+	font-size: 45px;
+	padding: 0px 25px;
+}
+
+#active {
+	color: #ef4f15;
 }
