@@ -54,9 +54,10 @@ html {
 }
 
 /* buttons */
-
+.buttons {
+}
 .buttons a {
-	margin: 0px 10px 0px 60px;
+	margin: 0px 10px 0px 100px;
 	line-height: 1.6;
 	text-decoration: none;
 	padding: 15px 25px;
