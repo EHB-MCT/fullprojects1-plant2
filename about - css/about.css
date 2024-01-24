@@ -1,6 +1,7 @@
 /* body and container */
 body,
 html {
+	overflow: hidden;
 	height: 100%;
 	margin: 0;
 	padding: 0;
@@ -47,7 +48,7 @@ html {
 }
 
 .left-content p {
-	margin: 100px 10px 100px 60px;
+	margin: 100px 10px 100px 100px;
 	line-height: 1.6;
 	color: #ef4f15;
 }
