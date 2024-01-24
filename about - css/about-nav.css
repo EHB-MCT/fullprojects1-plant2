@@ -1,9 +1,6 @@
-.nav-list {
-	/* list-style: none;
-	padding: 0;
-	display: flex;
-	margin: 45px 0px 0px 0px; */
+/* navigation */
 
+.nav-list {
 	display: flex;
 	padding: 10px;
 	margin-top: 30px;
@@ -11,9 +8,6 @@
 }
 
 .nav-list li {
-	/* padding: 10px;
-	margin-left: 40px; */
-
 	display: inline-block;
 	list-style-type: none;
 	margin-right: 50px;
@@ -22,15 +16,6 @@
 .nav-list li a {
 	text-decoration: none;
 	color: #2d2d2d;
-}
-
-.logo {
-	height: 50px;
-	margin-right: 50px;
-}
-
-.logo:hover {
-	transform: translateY(-2px);
 }
 
 .nav-list a:hover {
@@ -42,4 +27,15 @@ a.orange {
 
 #active {
 	color: #ef4f15;
+}
+
+/* logo */
+
+.logo {
+	height: 50px;
+	margin-right: 50px;
+}
+
+.logo:hover {
+	transform: translateY(-2px);
 }
