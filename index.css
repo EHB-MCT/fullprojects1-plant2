@@ -1,5 +1,5 @@
 body {
-    background-image:url(./images/MicrosoftTeams-image.png);
+    background-image:url(./images/Fichier\ 18.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -13,17 +13,16 @@ body {
 
 .quote-item {
     margin-top: 1%;
-    margin-left: 29%;
+    margin-left: 22%;
 }
 
 .name-item {
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 50px;
     color: #D36127;
     font-size: 50px;
-    line-height: 80px;
+    line-height: 90px;
 }
 .name-item2 {
-    margin-left: 150px;
+    margin-left: 120px;
 }
-
