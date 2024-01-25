@@ -24,9 +24,10 @@ html {
 }
 
 .right-content img {
+	position: fixed;
 	width: fit-content;
-	height: 100vh;
-	margin-left: 100px;
+	height: 110vh;
+	margin-left: 150px;
 }
 
 @media screen and (max-width: 1180px) {
@@ -47,16 +48,20 @@ html {
 }
 
 .left-content p {
-	margin: 100px 10px 100px 100px;
 	line-height: 1.6;
 	color: #ef4f15;
 }
 
+.aboutcontent {
+	margin: 130px 10px 0px 200px;
+}
 /* buttons */
 .buttons {
+	margin-top: 40px;
 }
+
 .buttons a {
-	margin: 0px 10px 0px 100px;
+	margin-right: 20px;
 	line-height: 1.6;
 	text-decoration: none;
 	padding: 15px 25px;
@@ -67,4 +72,5 @@ html {
 
 .buttons a:hover {
 	transform: translateY(-2px);
+	background-color: #ef4f15;
 }
