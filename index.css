@@ -16,7 +16,7 @@ body {
 }
 
 .name-item {
-    margin-left: 5%;
+    margin-left: 6%;
     margin-top: 50px;
     color: #D36127;
     font-size: 50px;
@@ -24,4 +24,12 @@ body {
 }
 .name-item2 {
     margin-left: 160px;
+    margin-right: 50px;
+
 }
+@media screen and (max-width: 622px) {
+    body {
+        background-image: none;
+    }
+}
+

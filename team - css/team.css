@@ -1,17 +1,35 @@
+body {
+	background-image: url(../images/team-organicForm.svg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: 30vw;
+	background-position: right;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+}
+
+/* table container */
+
 .table-container {
-	margin: 50px 0px 0px 50px;
+	flex: 1;
+
+	margin: 0px 0px 0px 400px;
+}
+
+h1 {
+	font-size: 50px;
+	margin: 50px 0px 0px 0px;
 }
 
 th,
 td {
 	font-family: "poppins", sans-serif;
 	font-style: normal;
-	padding: 5px 50px;
-}
-
-#team {
-	font-size: 45px;
-	padding: 0px 25px;
+	padding: 5px 15px 5px 10px;
 }
 
 #active {

@@ -16,3 +16,54 @@ afspraken:
 () binnen de folder
 ./ 1 keer uit de folder
 ../ 2 keer uit de folder
+
+///////////////////////////////////////////////
+
+namen team
+
+Bart Van de Vijver 	Plantentuin Meise
+Elke Bellefroid 	Plantentuin Meise
+Ivan Hoste 	Plantentuin Meise
+Jan Rammeloo 	Plantentuin Meise
+Jutta Kleber 	Plantentuin Meise
+Kenny Stevens 	Plantentuin Meise
+Koen Es 	Plantentuin Meise
+Patricia Mergen 	Plantentuin Meise
+Peter Roels 	Plantentuin Meise
+Steven Dessein 	Plantentuin Meise
+
+Christa Maes 	Hof ter Saksen - gemeente Beveren
+Jan Van Bogaert	Hof ter Saksen - gemeente Beveren
+
+Carolien Van Soom 	KU Leuven
+Marie-Paule Buyse 	KU Leuven
+Ullrich Melle 	KU Leuven
+Lars Chatrou 	UGent
+Peter Durnez 	Onderwijs
+Geert Potters 	Hogere Zeevaartschool
+Joeri Horvath 	Hogere Zeevaartschool
+Han Asard 	Universiteit Antwerpen
+Suzy Huysmans 	Universiteit Antwerpen
+
+Ann Jacobs	Rotary Meise
+Arthur (Tuur) De Haeck 	INBO
+Bart Backaert 	stad Aalst Groendienst
+Hilde Degraen 	PTS Campus Mechelen
+Wim Peeters	Vives Hogeschool, Odisee Hogeschool, 
+	Bomen Beter Beheren
+Erik Smets 	Naturalis
+Jan Vilain 	Vlaamse Vereniging voor 
+	Ruimte en Planning
+Nico D'Hamers 	Boomverzorging en consulent
+Paul Geerts 	Journalist
+Quentin Hiernaux 	ULB
+Roger de Graaf 	KOCA
+Tim Pelgrims 	Plantentuin Merksplas
+Wout Oprins 	Plantentuin Merksplas
+Wim Massant 	Ecopedia
+Bram Rammeloo 	Arboretum Kalmthout
+
+Pieter Caris
+Marta Wodz
+Jan Braeckman
+Yap Yong
