@@ -1,0 +1,78 @@
+/* body and container */
+body,
+html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+/* container een*/
+.container {
+	display: flex;
+	height: 100vh;
+}
+
+.left-container,
+.right-container {
+	flex: 1;
+	height: 80vh;
+}
+
+/* right container */
+.right-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.right-content img {
+	width: fit-content;
+	height: 700px;
+}
+
+@media screen and (max-width: 1180px) {
+	.right-container {
+		display: none;
+	}
+}
+
+/* left container */
+
+.left-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.left-content {
+	background-color: rgb(255, 255, 255);
+	height: 80vh;
+	width: 700px;
+}
+
+.left-content p {
+	margin: 200px 10px 100px 220px;
+	line-height: 1.6;
+	color: #ef4f15;
+}
+
+/* container twee */
+
+.container2 {
+	background-color: #2d2d2d;
+	display: flex;
+	height: 100vh;
+}
+/* right container twee */
+
+.right-container2 p {
+	margin: 120px 10px 30px 0px;
+	line-height: 1.6;
+	color: #f28c28;
+}
+/* left container twee */
+
+.left-container2 {
+	height: 100vh;
+	height: 80vh;
+	width: 50%;
+}
