@@ -1,17 +1,16 @@
 .table-container {
-	margin: 50px 0px 0px 50px;
+	margin: 0px 0px 0px 50px;
+}
+
+h1 {
+	margin: 50px 0px 0px 60px;
 }
 
 th,
 td {
 	font-family: "poppins", sans-serif;
 	font-style: normal;
-	padding: 5px 50px;
-}
-
-#team {
-	font-size: 45px;
-	padding: 0px 25px;
+	padding: 5px 50px 5px 10px;
 }
 
 #active {
