@@ -74,6 +74,7 @@ html {
 	border-radius: 0;
 	color: white;
 	background-color: #2d2d2d;
+	display: inline-block;
 }
 
 .buttons a:hover {
@@ -81,7 +82,7 @@ html {
 	background-color: #ef4f15;
 }
 
-@media screen and (max-width: 782px;) {
+@media screen and (max-width: 782px) {
 	.buttons {
 		display: flex;
 		flex-direction: column;
