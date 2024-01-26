@@ -13,12 +13,13 @@ body {
 
 .quote-item {
     margin-left: 22%;
+    color: #EF4F15;
 }
 
 .name-item {
     margin-left: 6%;
     margin-top: 50px;
-    color: #D36127;
+    color: #2d2d2d;
     font-size: 50px;
     line-height: 0.9;
 }
