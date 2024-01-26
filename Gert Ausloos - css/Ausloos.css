@@ -27,7 +27,7 @@ html {
 
 .right-content img {
 	width: fit-content;
-	height: 700px;
+	height: 100vh;
 }
 
 @media screen and (max-width: 1180px) {
@@ -73,6 +73,5 @@ html {
 
 .left-container2 {
 	height: 100vh;
-	height: 80vh;
-	width: 50%;
+	width: 56%;
 }
