@@ -1,0 +1,277 @@
+body {
+	background-image: url(../images/Values-background.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.quote-item {
+	margin-left: 22%;
+	color: #ef4f15;
+}
+
+.name-item {
+	margin-left: 20%;
+	margin-top: 100px;
+	color: #2d2d2d;
+	font-size: 25px;
+	line-height: 0.9;
+}
+.name-item2 {
+	margin-left: 110px;
+	margin-right: 50px;
+}
+
+/*carousel*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+html,
+body {
+	color: white;
+}
+
+html,
+body {
+	margin-top: 50px;
+	margin-bottom: 0;
+}
+
+html h2,
+body h2 {
+	margin: 0;
+	opacity: 0.4;
+}
+
+.line,
+.carousel li img,
+.carousel li,
+.carousel {
+	width: 100%;
+}
+
+.carousel-wrapper,
+.center,
+.carousel ul {
+	display: flex;
+}
+
+.center,
+.carousel ul {
+	align-items: center;
+	justify-content: center;
+}
+
+.carousel-wrapper {
+	top: -7vh;
+	left: 4vh;
+	position: relative;
+	max-width: 900px; /* Increase the max-width for a wider carousel */
+	margin: 50px auto; /* Center the carousel horizontally */
+}
+
+.carousel-wrapper input {
+	display: none;
+}
+
+.carousel {
+	overflow: hidden;
+	border-radius: 5px;
+	width: 100%; /* Set the width to 100% for responsiveness */
+}
+
+.carousel ul {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 500%; /* Adjust the width of the carousel container */
+	transition: left 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.nav-dot {
+	position: absolute;
+	cursor: pointer;
+	margin-left: 20px;
+	bottom: -35px;
+	width: 10px;
+	height: 10px;
+	opacity: 0.5;
+	background-color: #ed742c;
+	border-radius: 50%;
+	transition: 0.4s;
+}
+
+.nav-dot:hover {
+	opacity: 0.8;
+	transform: scale(1.2);
+}
+
+.nav-dot:active {
+	transform: scale(0.9);
+}
+
+.nav-dot[for="slide1"] {
+	left: 40%; /* Adjust the left position */
+}
+
+#slide1:checked ~ .carousel ul {
+	left: 0%;
+}
+
+#slide1:checked ~ .nav-dot[for="slide1"] {
+	opacity: 1;
+}
+
+.nav-dot[for="slide2"] {
+	left: 42%; /* Adjust the left position */
+}
+
+#slide2:checked ~ .carousel ul {
+	left: -100%;
+}
+
+#slide2:checked ~ .nav-dot[for="slide2"] {
+	opacity: 1;
+}
+
+.nav-dot[for="slide3"] {
+	left: 44%; /* Adjust the left position */
+}
+
+#slide3:checked ~ .carousel ul {
+	left: -200%;
+}
+
+#slide3:checked ~ .nav-dot[for="slide3"] {
+	opacity: 1;
+}
+
+.nav-dot[for="slide4"] {
+	left: 46%; /* Adjust the left position */
+}
+
+#slide4:checked ~ .carousel ul {
+	left: -300%;
+}
+
+#slide4:checked ~ .nav-dot[for="slide4"] {
+	opacity: 1;
+}
+
+.nav-dot[for="slide5"] {
+	left: 48%; /* Adjust the left position */
+}
+
+#slide5:checked ~ .carousel ul {
+	left: -400%;
+}
+
+#slide5:checked ~ .nav-dot[for="slide5"] {
+	opacity: 1;
+}
+
+.right-arrow,
+.left-arrow {
+	display: none;
+	position: absolute;
+	cursor: pointer;
+	text-shadow: none;
+	top: 50%;
+	z-index: 1;
+	opacity: 0.7;
+	margin-top: -25px;
+	height: 70px;
+	font-size: 50px;
+	transition: 0.2s;
+	color: #e57221;
+	background-size: contain;
+	background-repeat: no-repeat;
+	color: transparent;
+}
+
+.right-arrow:hover,
+.left-arrow:hover {
+	opacity: 1;
+	transform: scale(1.2);
+}
+
+.right-arrow:active,
+.left-arrow:active {
+	transform: scale(0.9);
+}
+
+.left-arrow {
+	left: -100px;
+	text-shadow: none;
+	background-image: url(../Images/leftarrow.png);
+}
+
+.right-arrow {
+	right: -40px;
+	background-image: url(../Images/rightarrow.png);
+}
+
+#slide1:checked ~ .left-arrow[for="slide5"],
+#slide1:checked ~ .right-arrow[for="slide2"] {
+	display: block;
+}
+
+#slide2:checked ~ .left-arrow[for="slide1"],
+#slide2:checked ~ .right-arrow[for="slide3"] {
+	display: block;
+}
+
+#slide3:checked ~ .left-arrow[for="slide2"],
+#slide3:checked ~ .right-arrow[for="slide4"] {
+	display: block;
+}
+
+#slide4:checked ~ .left-arrow[for="slide3"],
+#slide4:checked ~ .right-arrow[for="slide5"] {
+	display: block;
+}
+
+#slide5:checked ~ .left-arrow[for="slide4"],
+#slide5:checked ~ .right-arrow[for="slide1"] {
+	display: block;
+}
+
+/*text*/
+
+li h1 {
+	color: #e57221;
+	text-align: left;
+	font-family: "poppins", sans-serif;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-shadow: none;
+	font-size: 17px;
+}
+
+li p {
+	text-align: left;
+	color: #f28c28;
+	font-family: "poppins", sans-serif;
+	font-style: normal;
+	text-shadow: none;
+	font-size: 15px;
+}
+
+.carousel li {
+	width: 50%; /* Adjust the width of each individual slide */
+	padding-right: 60px; /* Adjust the padding between slides */
+}
+
+@media screen and (max-width: 622px) {
+	body {
+		background-image: none;
+	}
+}

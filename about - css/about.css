@@ -57,12 +57,24 @@ html {
 }
 
 @media screen and (max-width: 1180px) {
+	.left-content {
+		height: 100vh;
+		background-image: url(../images/about_responsive_background_image.svg);
+		background-repeat: no-repeat;
+		background-position: right;
+		background-attachment: fixed;
+	}
+
 	.aboutcontent {
 		margin: 130px 200px 0px 200px;
 	}
 }
 
 @media screen and (max-width: 768px) {
+	.left-content {
+		background-image: none;
+	}
+
 	.aboutcontent {
 		margin: 130px 100px 0px 100px;
 	}
@@ -94,7 +106,7 @@ html {
 	background-color: #ef4f15;
 }
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1339px) {
 	.buttons {
 		display: flex;
 		flex-direction: column;
