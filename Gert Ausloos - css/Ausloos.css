@@ -19,11 +19,11 @@ html {
 	height: 100vh;
 }
 
-/* right container */
+/* right container een */
 .right-container {
 	display: flex;
 	flex-direction: column;
-	background-image: url(../images/Gert\ Ausloos\ -\ Fichier\ 21.svg);
+	background-image: url(../images/Gert\ Ausloos\ -\ Fichier\ 23.svg);
 	background-repeat: no-repeat;
 }
 
@@ -33,7 +33,7 @@ html {
 	}
 }
 
-/* left container */
+/* left container een*/
 
 .left-container {
 	display: flex;
@@ -78,6 +78,19 @@ html {
 /* container drie*/
 
 .container3 {
-	background-color: rgb(135, 90, 31);
+	display: flex;
 	height: 100vh;
+}
+
+.container3 img {
+	justify-content: center;
+	width: 550px;
+	margin: 120px 130px;
+}
+
+.container3 p {
+	justify-content: center;
+	color: #ef4f15;
+	line-height: 1.6;
+	margin-top: 180px;
 }
