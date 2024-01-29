@@ -49,14 +49,13 @@ html {
 .left-content p {
 	margin: 200px 10px 100px 220px;
 	line-height: 1.6;
-	color: #ef4f15;
+	color: #e5794a;
 }
 
 /* container twee */
 
 .container2 {
 	background-color: #2d2d2d;
-	height: 100vh;
 	display: flex;
 	background-image: url(../images/Gert\ Ausloos\ -\ Fichier\ 22.svg);
 	background-repeat: no-repeat;
@@ -66,7 +65,7 @@ html {
 .right-container2 p {
 	margin: 120px 10px 30px 0px;
 	line-height: 1.6;
-	color: #f28c28;
+	color: #e5794a;
 }
 /* left container twee */
 
@@ -90,7 +89,7 @@ html {
 
 .container3 p {
 	justify-content: center;
-	color: #ef4f15;
+	color: #e5794a;
 	line-height: 1.6;
 	margin-top: 180px;
 }
