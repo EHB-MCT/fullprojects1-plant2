@@ -61,6 +61,18 @@ html {
 		margin: 130px 200px 0px 200px;
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.aboutcontent {
+		margin: 130px 100px 0px 100px;
+	}
+}
+
+@media screen and (max-width: 530px) {
+	.aboutcontent {
+		margin: 130px 50px 0px 50px;
+	}
+}
 /* buttons */
 
 .buttons {
@@ -82,13 +94,30 @@ html {
 	background-color: #ef4f15;
 }
 
-@media screen and (max-width: 782px) {
+@media screen and (max-width: 1180px) {
 	.buttons {
 		display: flex;
 		flex-direction: column;
 	}
 
 	.buttons a {
+		padding: 15px 25px;
+		margin: 20px 0px 10px 0px;
+		text-align: center;
+		flex: 1;
+	}
+}
+
+@media screen and (max-width: 836px) {
+	.buttons {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.buttons a {
+		padding: 15px 25px;
+		margin: 20px 0px 10px 0px;
+		text-align: center;
 		flex: 1;
 	}
 }
