@@ -12,6 +12,13 @@
 		<link rel="stylesheet" href="../globaal - css/nav.css" />
 		<link rel="stylesheet" href="./Ausloos.css" />
 		<link rel="stylesheet" href="Ausloos-nav.css" />
+		<script>
+			function toggleMobileMenu() {
+				var mobileMenu = document.querySelector(".mobile-menu");
+				mobileMenu.style.display =
+					mobileMenu.style.display === "block" ? "none" : "block";
+			}
+		</script>
 	</head>
 	<body>
 		<div class="container">
@@ -44,11 +51,18 @@
 						</nav>
 					</div>
 					<!-- text -->
+
 					<p>
 						<b>Plantblindheid</b>, of beter, de strijd er tegen, was een!<br />
 						van de zaken die Gert dreef in zijn werk als directeur<br />
 						publiekswerking van de <b>Plantentuin Meise</b>.
 					</p>
+					<a
+						href="https://www.plantentuinmeise.be/nl"
+						target="_blank"
+						class="button"
+						>MEER INFO</a
+					>
 				</div>
 			</div>
 			<!-- right container -->
@@ -99,4 +113,11 @@
 			</div>
 		</div>
 	</body>
+	<script>
+		function toggleMobileMenu() {
+			var mobileMenu = document.querySelector(".mobile-menu");
+			mobileMenu.style.display =
+				mobileMenu.style.display === "block" ? "none" : "block";
+		}
+	</script>
 </html>
