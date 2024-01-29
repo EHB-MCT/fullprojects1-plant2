@@ -19,6 +19,9 @@
 a.orange {
 	color :#EF4F15;
 }
+#active {
+	color: #ef4f15;
+}
 .logo {
 	height: 50px;
 	margin-right: 25px;
@@ -38,7 +41,7 @@ a.orange {
 .mobile-menu {
     display: none;
 }
-@media screen and (max-width: 622px) {
+@media screen and (max-width: 648px) {
 	.hamburger-menu {
         display: block;
         font-size: 50px;
