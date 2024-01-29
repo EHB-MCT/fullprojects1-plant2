@@ -16,18 +16,15 @@ html {
 .left-container,
 .right-container {
 	flex: 1;
-	height: 80vh;
+	height: 100vh;
 }
 
 /* right container */
 .right-container {
 	display: flex;
 	flex-direction: column;
-}
-
-.right-content img {
-	width: fit-content;
-	height: 100vh;
+	background-image: url(../images/Gert\ Ausloos\ -\ Fichier\ 21.svg);
+	background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 1180px) {
@@ -59,8 +56,10 @@ html {
 
 .container2 {
 	background-color: #2d2d2d;
-	display: flex;
 	height: 100vh;
+	display: flex;
+	background-image: url(../images/Gert\ Ausloos\ -\ Fichier\ 22.svg);
+	background-repeat: no-repeat;
 }
 /* right container twee */
 
@@ -74,4 +73,11 @@ html {
 .left-container2 {
 	height: 100vh;
 	width: 56%;
+}
+
+/* container drie*/
+
+.container3 {
+	background-color: rgb(135, 90, 31);
+	height: 100vh;
 }
