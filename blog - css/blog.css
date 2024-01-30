@@ -56,6 +56,8 @@
                     /* JOIN NEXT EVENT? */
 .container3 {
     display: flex;
+    background-image:url(../images/Asset\ 33.svg);
+    background-repeat: no-repeat;
     height: 50vh;
 }
 .name-item5 {
@@ -102,6 +104,12 @@
         font-size: 25px;
     }   
 }
+@media screen and (max-width: 425px) {
+    .container3 {
+        background-image:none;
+    }
+}
+
 @media screen and (max-width: 336px) {
     .container {
         height: 120vh;
