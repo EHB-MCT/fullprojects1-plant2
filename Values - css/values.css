@@ -17,11 +17,14 @@ body {
 }
 
 .name-item {
-	margin-left: 20%;
 	margin-top: 100px;
 	color: #2d2d2d;
 	font-size: 25px;
 	line-height: 0.9;
+
+	padding-left: 330px;
+	padding-right: 900px;
+	margin-right: 900px;
 }
 .name-item2 {
 	margin-left: 110px;
@@ -66,16 +69,11 @@ body h2 {
 	align-items: center;
 	justify-content: center;
 }
-.carousel {
-	left: 50%;
-}
 
 .carousel-wrapper {
 	top: -7vh;
-	left: 4vh;
 	position: relative;
 	max-width: 900px; /* Increase the max-width for a wider carousel */
-	margin: 50px auto; /* Center the carousel horizontally */
 	width: 100%;
 	display: flex;
 }
@@ -94,7 +92,6 @@ body h2 {
 	position: relative;
 	list-style: none;
 	overflow: hidden;
-	margin: 0;
 	padding: 0;
 	height: 100%;
 	width: 500%; /* Adjust the width of the carousel container */
@@ -104,7 +101,6 @@ body h2 {
 .nav-dot {
 	position: absolute;
 	cursor: pointer;
-	margin-left: 20px;
 	bottom: -35px;
 	width: 10px;
 	height: 10px;
@@ -183,13 +179,12 @@ body h2 {
 	opacity: 1;
 }
 .left-arrow {
-	left: -80px;
-	text-shadow: none;
+	left: 20px;
 	background-image: url(../Images/leftarrow.png);
 }
 
 .right-arrow {
-	right: 80px;
+	right: 100px;
 	background-image: url(../Images/rightarrow.png);
 }
 
@@ -270,8 +265,9 @@ li p {
 }
 
 .carousel li {
-	width: 50%; /* Adjust the width of each individual slide */
+	width: 100%; /* Adjust the width of each individual slide */
 	padding-right: 60px; /* Adjust the padding between slides */
+	margin-left: 85px;
 }
 
 @media screen and (max-width: 648px) {
