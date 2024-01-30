@@ -1,4 +1,4 @@
-/* OUR WORKS */
+                        /* OUR WORKS */
 .container {
 	display: flex;
 	flex-direction: column;
@@ -80,6 +80,9 @@
     font-size: 15px;
     margin-left: 30%;
 }
+
+
+                            /* SCREEN SIZE VARIATIONS */
 @media screen and (max-width: 1024px) {
     .container {
         height: 115vh;
