@@ -30,7 +30,17 @@ body {
 }
 @media screen and (max-width: 648px) {
     body {
-        background-image: none;
+        background-image:url(./images/Asset\ 9.svg);
+        background-size: contain;
+        background-position: top;
+    }
+    .name-item2 {
+        margin-left: 60px;
+    }
+    .quote-item {
+        margin-left: 40%;
+    }
+    .name-item {
+        font-size: 30px;
     }
 }
-
