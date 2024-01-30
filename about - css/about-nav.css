@@ -43,11 +43,16 @@ a.orange {
 
 /* hamburger menu */
 .hamburger-menu {
-	display: none;
-	font-size: 24px;
+	display: block;
+	font-size: 50px;
 	cursor: pointer;
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 20px;
+	margin: 20px;
+	z-index: 1000;
 }
-
 .mobile-menu {
 	display: none;
 }
