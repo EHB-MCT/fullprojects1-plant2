@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 712.8 345.52">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-3 {
+        fill: #2d2d2d;
+        font-family: Poppins-SemiBold, Poppins;
+        font-size: 150px;
+        font-weight: 600;
+      }
+
+      .cls-4 {
+        letter-spacing: .68em;
+      }
+    </style>
+  </defs>
+  <g id="homepage">
+    <text class="cls-3" transform="translate(0 127.57)"><tspan class="cls-1"><tspan x="0" y="0">PLANT</tspan></tspan><tspan class="cls-4" x="0" y="129">	</tspan><tspan class="cls-2" x="137.26" y="129">BEWUST</tspan></text>
+  </g>
+</svg>

@@ -41,7 +41,7 @@ a.orange {
 .mobile-menu {
     display: none;
 }
-@media screen and (max-width: 648px) {
+@media screen and (max-width: 657px) {
 	.hamburger-menu {
         display: block;
         font-size: 50px;

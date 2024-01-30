@@ -28,9 +28,12 @@ body {
     margin-right: 50px;
 
 }
-@media screen and (max-width: 648px) {
+@media screen and (max-width: 657px) {
     body {
         background-image: none;
+    }
+    .name-item2 {
+        margin-left: 60px;
     }
 }
 
