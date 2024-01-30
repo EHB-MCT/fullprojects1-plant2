@@ -5,6 +5,10 @@ body {
 	padding: 0;
 }
 
+.nav-container {
+	margin-top: 0px;
+}
+
 #active {
 	color: #ef4f15;
 }
