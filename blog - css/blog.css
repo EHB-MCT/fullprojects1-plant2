@@ -1,4 +1,4 @@
-/* OUR WORKS */
+                        /* OUR WORKS */
 .container {
 	display: flex;
 	flex-direction: column;
@@ -37,7 +37,7 @@
 .container2 {
 	background-color: #2d2d2d;
 	display: flex;
-	height: 150vh;
+	height: 100vh;
     width: auto;
 }
 .name-item3 {
@@ -56,7 +56,7 @@
                     /* JOIN NEXT EVENT? */
 .container3 {
     display: flex;
-    background-image:url(../images/Asset\ 39.svg);
+    background-image:url(../images/Asset\ 33.svg);
     background-repeat: no-repeat;
     height: 50vh;
 }
@@ -80,6 +80,9 @@
     font-size: 15px;
     margin-left: 30%;
 }
+
+
+                            /* SCREEN SIZE VARIATIONS */
 @media screen and (max-width: 1024px) {
     .container {
         height: 115vh;
@@ -87,9 +90,6 @@
     .name-item5 {
         margin-left: 6px;
         font-size: 25px;
-    }
-    .name-item6 {
-        margin-left: 110px;
     }
 }
 @media screen and (max-width: 768px) {
@@ -107,7 +107,7 @@
         font-size: 25px;
     }   
 }
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 425px) {
     .container3 {
         background-image:none;
     }
