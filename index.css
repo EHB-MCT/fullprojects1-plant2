@@ -38,6 +38,9 @@ body {
         margin-left: 60px;
     }
     .quote-item {
-        margin-left: 50%;
+        margin-left: 40%;
+    }
+    .name-item {
+        font-size: 30px;
     }
 }
