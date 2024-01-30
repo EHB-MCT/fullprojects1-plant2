@@ -1,37 +1,38 @@
+/* body + nav */
 body {
-	background-image: url(../images/team-organicForm.svg);
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-image: url(../images/container1_background_image.svg);
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-size: 30vw;
-	background-position: right;
-}
-
-.container {
-	display: flex;
-	flex-direction: row;
-	height: 100vh;
-}
-
-/* table container */
-
-.table-container {
-	flex: 1;
-
-	margin: 0px 0px 0px 150px;
-}
-
-h1 {
-	font-size: 50px;
-	margin: 50px 0px 0px 0px;
-}
-
-th,
-td {
-	font-family: "poppins", sans-serif;
-	font-style: normal;
-	padding: 5px 15px 5px 10px;
 }
 
 #active {
 	color: #ef4f15;
+}
+/* 1st container */
+.container1 {
+	display: flex;
+	flex-direction: row;
+	height: 75vh;
+}
+
+.left-item1 {
+	flex: 1;
+}
+
+.item-right1 {
+	flex: 1;
+	margin-left: 500px;
+}
+/* 2de container */
+.container2 {
+	display: flex;
+	flex-direction: row;
+	height: 50vh;
+	color: #ef4f15;
+	background-color: #2d2d2d;
 }
