@@ -14,11 +14,29 @@ body {
 	background-repeat: no-repeat;
 }
 
-.nav-container {
-	/* margin-top: 0px; */
+#active {
+	color: #ef4f15;
 }
 
-#active {
+#dark-button {
+	text-decoration: none;
+	color: white;
+	background-color: #2d2d2d;
+	padding: 15px 25px;
+}
+
+#light-button {
+	text-decoration: none;
+	color: #2d2d2d;
+	background-color: #ef4f15;
+	padding: 15px 25px;
+}
+
+#dark-text {
+	color: #2d2d2d;
+}
+
+#light-text {
 	color: #ef4f15;
 }
 
@@ -31,6 +49,7 @@ body {
 
 .left-item1 {
 	flex: 1;
+	margin: 0px 0px 0px 50px;
 }
 
 .item-right1 {
