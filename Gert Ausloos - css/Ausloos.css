@@ -24,13 +24,13 @@ html {
 	flex-direction: column;
 	background-image: url(../images/Gert\ Ausloos\ -\ Fichier\ 23.svg);
 	background-repeat: no-repeat;
-	background-size: cover; /* Redimensionne l'image pour couvrir toute la zone */
-	background-position: center; /* Centre l'image */
+	background-size: cover;
+	background-position: center;
 }
 
 @media screen and (max-width: 1180px) {
 	.right-container {
-		background-image: none; /* Supprime l'image de fond sur les écrans plus petits */
+		background-image: none;
 	}
 }
 
@@ -109,50 +109,11 @@ html {
 	}
 
 	.right-container2 {
-		margin-left: -200px;
+		margin-left: -240px;
 	}
 }
 
 /* container drie*/
-
-.container3 {
-	display: flex;
-	height: 100vh;
-}
-
-.container3 img {
-	justify-content: center;
-	width: 550px;
-	margin: 120px 130px;
-}
-
-.container3 p {
-	justify-content: center;
-	color: #ef4f15;
-	line-height: 1.6;
-	margin-top: 180px;
-}
-
-@media screen and (max-width: 1180px) {
-	.container3 {
-		display: flex;
-		flex-direction: column;
-	}
-
-	.container3 img {
-		justify-content: center;
-		width: auto;
-		max-width: 550px;
-		margin: 120px 130px;
-	}
-
-	.container3 p {
-		justify-content: center;
-		color: #ef4f15;
-		line-height: 1.6;
-		margin-top: 100px;
-	}
-}
 
 .container3 {
 	display: flex;
@@ -162,14 +123,15 @@ html {
 }
 
 .container3 img {
-	max-width: 100%;
-	margin: 0 20px;
+	justify-content: center;
+	width: 450px;
+	margin: 30px 40px 30px 0px;
 }
 
 .container3 p {
 	color: #ef4f15;
 	line-height: 1.6;
-	margin-top: 20px;
+	max-width: 550px;
 }
 
 @media screen and (max-width: 1180px) {
@@ -178,8 +140,8 @@ html {
 	}
 
 	.container3 img {
-		width: 80%;
-		margin: 20px 0;
+		width: 350px;
+		display: flex;
 	}
 
 	.container3 p {

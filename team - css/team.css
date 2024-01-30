@@ -3,16 +3,25 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+}
+
+.background-image-container {
+	margin-top: 0px;
 	background-image: url(../images/container1_background_image.svg);
 	background-position: center center;
-	background-attachment: fixed;
 	background-size: cover;
+	background-attachment: scroll;
 	background-repeat: no-repeat;
+}
+
+.nav-container {
+	/* margin-top: 0px; */
 }
 
 #active {
 	color: #ef4f15;
 }
+
 /* 1st container */
 .container1 {
 	display: flex;
