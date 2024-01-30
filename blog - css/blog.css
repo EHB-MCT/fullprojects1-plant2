@@ -1,4 +1,4 @@
-                        /* OUR WORKS */
+/* OUR WORKS */
 .container {
 	display: flex;
 	flex-direction: column;
@@ -30,7 +30,7 @@
     line-height: 0.8;
 }
 .dlimg {
-    height: 50px;
+    height: 20px;
 }
 
                         /* OUR RECOMMENDATIONS */
@@ -38,13 +38,15 @@
 	background-color: #2d2d2d;
 	display: flex;
 	height: 100vh;
+    width: auto;
 }
 .name-item3 {
     margin-left: 6%;
     color: white;
     font-size: 35px;
-    background-color: #2d2d2d;
     line-height: 0.9;
+    background-color: #2d2d2d;
+
 }
 .name-item4 {
     margin-left: 100px;
@@ -54,6 +56,8 @@
                     /* JOIN NEXT EVENT? */
 .container3 {
     display: flex;
+    background-image:url(../images/Asset\ 33.svg);
+    background-repeat: no-repeat;
     height: 50vh;
 }
 .name-item5 {
@@ -76,3 +80,40 @@
     font-size: 15px;
     margin-left: 30%;
 }
+@media screen and (max-width: 1024px) {
+    .container {
+        height: 115vh;
+    }
+    .name-item5 {
+        margin-left: 6px;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        background-image: none;
+    }
+    .text {
+        margin-right: 20%;
+        margin-left: 0;
+    }
+    .name-item {
+        font-size: 25px;
+    }
+    .name-item3 {
+        font-size: 25px;
+    }   
+}
+@media screen and (max-width: 425px) {
+    .container3 {
+        background-image:none;
+    }
+}
+
+@media screen and (max-width: 336px) {
+    .container {
+        height: 120vh;
+    }
+}
+
+
