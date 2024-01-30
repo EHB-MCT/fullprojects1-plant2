@@ -28,7 +28,7 @@ body {
     margin-right: 50px;
 
 }
-@media screen and (max-width: 657px) {
+@media screen and (max-width: 648px) {
     body {
         background-image:url(./images/Asset\ 9.svg);
         background-size: contain;
