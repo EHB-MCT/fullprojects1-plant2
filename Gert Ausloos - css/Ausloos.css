@@ -72,12 +72,14 @@ html {
 	}
 
 	.left-content p {
-		margin: 200px 20px 50px 110px;
+		max-width: 350px;
+		margin: 50px;
+		margin-top: 200px;
 		transition: 0.3s;
 	}
 
 	.button {
-		margin-left: 110px;
+		margin-left: 50px;
 		transition: 0.3s;
 	}
 }
@@ -116,7 +118,7 @@ html {
 	}
 
 	.right-container2 {
-		margin-left: -240px;
+		margin-left: -45px;
 	}
 }
 
@@ -132,7 +134,7 @@ html {
 .container3 img {
 	justify-content: center;
 	width: 500px;
-	margin: 30px 40px 30px 0px;
+	margin: 30px 40px 10px 0px;
 }
 
 .container3 p {
@@ -148,10 +150,12 @@ html {
 
 	.container3 img {
 		width: 350px;
+		margin-top: 350px;
+		margin-left: 45px;
 		display: flex;
 	}
 
 	.container3 p {
-		margin-top: 10px;
+		margin: 50px;
 	}
 }
