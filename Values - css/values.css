@@ -22,9 +22,7 @@ body {
 	font-size: 25px;
 	line-height: 0.9;
 
-	padding-left: 330px;
-	padding-right: 900px;
-	margin-right: 900px;
+	margin-left: 330px;
 }
 .name-item2 {
 	margin-left: 110px;
@@ -37,12 +35,6 @@ body {
 html,
 body {
 	color: white;
-}
-
-html,
-body {
-	margin-top: 50px;
-	margin-bottom: 0;
 }
 
 html h2,
@@ -268,6 +260,11 @@ li p {
 	width: 100%; /* Adjust the width of each individual slide */
 	padding-right: 60px; /* Adjust the padding between slides */
 	margin-left: 85px;
+}
+@media screen and (max-width: 1246px) {
+	.name-item {
+		margin-left: 250px;
+	}
 }
 
 @media screen and (max-width: 648px) {
