@@ -147,6 +147,9 @@
 }
 
 @media screen and (max-width: 425px) {
+	.name-item {
+		margin-left: 10%;
+	}
 	.allBooks div {
 		text-align: center;
 		height: 300px;
@@ -154,9 +157,6 @@
 	.container {
 		margin-bottom: 0px;
 	}
-}
-
-@media screen and (max-width: 425px) {
 	.container3 {
 		background-image: none;
 	}
