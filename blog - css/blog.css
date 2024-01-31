@@ -1,4 +1,4 @@
-/* OUR WORKS */
+                                    /* OUR WORKS */
 .container {
 	display: flex;
 	flex-direction: column;
@@ -33,7 +33,7 @@
 	height: 20px;
 }
 
-/* OUR RECOMMENDATIONS */
+                                        /* OUR RECOMMENDATIONS */
 .container2 {
 	background-color: #2d2d2d;
 	display: flex;
@@ -41,7 +41,7 @@
 	width: auto;
 }
 .name-item3 {
-	margin-left: 6%;
+	margin-left: 5%;
 	color: white;
 	font-size: 35px;
 	line-height: 0.9;
@@ -52,7 +52,7 @@
 	margin-right: 30px;
 }
 
-/* RECOMMENDED BOOKS */
+                                        /* RECOMMENDED BOOKS */
 .allBooks {
 	display: flex;
 	justify-content: space-evenly;
@@ -62,7 +62,7 @@
 .allBooks div {
 	text-align: center;
 }
-/* JOIN NEXT EVENT? */
+                                        /* JOIN NEXT EVENT? */
 .container3 {
 	display: flex;
 	background-image: url(../images/Asset\ 33.svg);
@@ -90,7 +90,7 @@
 	margin-left: 30%;
 }
 
-/* SCREEN SIZE VARIATIONS */
+                            /* SCREEN SIZE VARIATIONS */
 @media screen and (max-width: 1024px) {
 	.container {
 		height: 115vh;
@@ -137,6 +137,11 @@
 	}
 	.allBooks div {
 		text-align: center;
+	}
+}
+@media screen and (max-width: 460px) {
+	body {
+		width: fit-content;
 	}
 }
 
