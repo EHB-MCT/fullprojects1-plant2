@@ -17,52 +17,51 @@
 		<link rel="stylesheet" href="team.css" />
 	</head>
 	<body>
-		<nav>
-			<div class="logo" style="display: flex; align-items: center">
-				<a href="../index.html"
-					><img
-						src="../images/Asset_40-removebg-preview.png"
-						class="logo"
-						alt="logo"
-				/></a>
-			</div>
-			<div class="hamburger">
-				<div class="line1"></div>
-				<div class="line2"></div>
-				<div class="line3"></div>
-			</div>
-			<ul class="nav-links">
-				<li>
-					<a href="../about - css/about.html" id="active"><b>ABOUT</b></a>
-				</li>
-				<li>
-					<a href="../Gert Ausloos - css/Ausloos.html"><b>GERT AUSLOOS</b></a>
-				</li>
-				<li>
-					<a href="../blog - css/blog.html"><b>REPORTS</b></a>
-				</li>
-			</ul>
-		</nav>
-		<script>
-			// Voeg hier je JavaScript-code toe
-			const hamburger = document.querySelector(".hamburger");
-			const navLinks = document.querySelector(".nav-links");
-			const links = document.querySelectorAll(".nav-links li");
-
-			hamburger.addEventListener("click", () => {
-				// Animate Links
-				navLinks.classList.toggle("open");
-				links.forEach((link) => {
-					link.classList.toggle("fade");
-				});
-
-				// Hamburger Animation
-				hamburger.classList.toggle("toggle");
-			});
-		</script>
 		<div class="body-container">
 			<!-- navigation -->
+			<nav>
+				<div class="logo" style="display: flex; align-items: center">
+					<a href="../index.html"
+						><img
+							src="../images/Asset_40-removebg-preview.png"
+							class="logo"
+							alt="logo"
+					/></a>
+				</div>
+				<div class="hamburger">
+					<div class="line1"></div>
+					<div class="line2"></div>
+					<div class="line3"></div>
+				</div>
+				<ul class="nav-links">
+					<li>
+						<a href="../about - css/about.html" id="active"><b>ABOUT</b></a>
+					</li>
+					<li>
+						<a href="../Gert Ausloos - css/Ausloos.html"><b>GERT AUSLOOS</b></a>
+					</li>
+					<li>
+						<a href="../blog - css/blog.html"><b>REPORTS</b></a>
+					</li>
+				</ul>
+			</nav>
+			<script>
+				// Voeg hier je JavaScript-code toe
+				const hamburger = document.querySelector(".hamburger");
+				const navLinks = document.querySelector(".nav-links");
+				const links = document.querySelectorAll(".nav-links li");
 
+				hamburger.addEventListener("click", () => {
+					// Animate Links
+					navLinks.classList.toggle("open");
+					links.forEach((link) => {
+						link.classList.toggle("fade");
+					});
+
+					// Hamburger Animation
+					hamburger.classList.toggle("toggle");
+				});
+			</script>
 			<!-- container1 -->
 			<div class="container1">
 				<div class="items-left1">
@@ -83,19 +82,19 @@
 					<a href="#"><b>READ MORE</b></a>
 				</div>
 			</div>
-			<!-- container2 -->
-			<div class="container2">
-				<div class="items-left2">
-					<p id="orange"><b>Steven Dessein</b></p>
-					<p id="orange">CEO plantentuin Meise</p>
-				</div>
-				<div class="items-right2">
-					<p id="orange">
-						"Het plantenrijk ontdekken, onderzoeken en beschermen en met deze
-						kennis samen bouwen aan een duurzame toekomst."
-					</p>
-					<a href="#"><b>READ MORE</b></a>
-				</div>
+		</div>
+		<!-- container2 -->
+		<div class="container2">
+			<div class="items-left2">
+				<p id="orange"><b>Steven Dessein</b></p>
+				<p id="orange">CEO plantentuin Meise</p>
+			</div>
+			<div class="items-right2">
+				<p id="orange">
+					"Het plantenrijk ontdekken, onderzoeken en beschermen en met deze
+					kennis samen bouwen aan een duurzame toekomst."
+				</p>
+				<a href="#"><b>READ MORE</b></a>
 			</div>
 		</div>
 	</body>
