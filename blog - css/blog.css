@@ -2,7 +2,7 @@
 .container {
 	display: flex;
 	flex-direction: column;
-	height: 95vh;
+	height: 97vh;
 	background-image: url(../images/Asset\ 32.svg);
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -159,6 +159,11 @@
 	}
 	.container3 {
 		background-image: none;
+	}
+}
+@media screen and (max-width: 363px) {
+	.text {
+		margin-right: 0;
 	}
 }
 
