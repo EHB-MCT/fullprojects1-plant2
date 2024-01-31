@@ -1,66 +1,44 @@
 /* body + nav */
-body {
-	height: 100%;
-	margin: 0;
-	padding: 0;
-}
-
-.background-image-container {
-	margin-top: 0px;
+.body-container {
 	background-image: url(../images/container1_background_image.svg);
-	background-position: center center;
-	background-size: cover;
-	background-attachment: scroll;
+	background-position: top center;
 	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: contain;
+	padding-top: 50px;
 }
 
-#active {
+#orange {
 	color: #ef4f15;
 }
 
-#dark-button {
-	text-decoration: none;
-	color: white;
-	background-color: #2d2d2d;
-	padding: 15px 25px;
-}
-
-#light-button {
-	text-decoration: none;
-	color: #2d2d2d;
-	background-color: #ef4f15;
-	padding: 15px 25px;
-}
-
-#dark-text {
-	color: #2d2d2d;
-}
-
-#light-text {
-	color: #ef4f15;
-}
-
-/* 1st container */
+/* container1 */
 .container1 {
 	display: flex;
 	flex-direction: row;
-	height: 75vh;
+	flex-wrap: wrap;
+	height: 60vh;
 }
 
-.left-item1 {
+/* left */
+
+.items-left1 {
 	flex: 1;
-	margin: 0px 0px 0px 50px;
+}
+/* right */
+
+.items-right1 {
+	flex: 1;
 }
 
-.item-right1 {
-	flex: 1;
-	margin-left: 500px;
+.items-right1 a {
+	padding: 15px 25px;
+	background-color: #ef4f15;
 }
-/* 2de container */
+
+/* container2 */
 .container2 {
 	display: flex;
-	flex-direction: row;
 	height: 50vh;
-	color: #ef4f15;
 	background-color: #2d2d2d;
 }

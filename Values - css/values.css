@@ -21,10 +21,8 @@ body {
 	color: #2d2d2d;
 	font-size: 25px;
 	line-height: 0.9;
-
-	padding-left: 330px;
-	padding-right: 900px;
-	margin-right: 900px;
+	margin-left: 375px;
+	justify-items: baseline;
 }
 .name-item2 {
 	margin-left: 110px;
@@ -33,23 +31,6 @@ body {
 
 /*carousel*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
-html,
-body {
-	color: white;
-}
-
-html,
-body {
-	margin-top: 50px;
-	margin-bottom: 0;
-}
-
-html h2,
-body h2 {
-	margin: 0;
-	opacity: 0.4;
-}
 
 .line,
 .carousel li img,
@@ -62,6 +43,12 @@ body h2 {
 .center,
 .carousel ul {
 	display: flex;
+}
+
+.center {
+	margin-left: 250px;
+	max-width: 70%;
+	margin-top: 30px;
 }
 
 .center,
@@ -85,7 +72,8 @@ body h2 {
 .carousel {
 	overflow: hidden;
 	border-radius: 5px;
-	width: 85%; /* Set the width to 100% for responsiveness */
+	width: 85%;
+	margin-left: 50px;
 }
 
 .carousel ul {
@@ -184,7 +172,7 @@ body h2 {
 }
 
 .right-arrow {
-	right: 100px;
+	right: 90px;
 	background-image: url(../Images/rightarrow.png);
 }
 
@@ -267,59 +255,60 @@ li p {
 .carousel li {
 	width: 100%; /* Adjust the width of each individual slide */
 	padding-right: 60px; /* Adjust the padding between slides */
-	margin-left: 85px;
+	margin-left: 40px;
+}
+@media screen and (max-width: 1246px) {
+	.name-item {
+		margin-left: 330px;
+	}
 }
 
 @media screen and (max-width: 648px) {
 	body {
 		background-image: url(../images/mobile-values.svg);
-		background-position: center center;
-		background-repeat: no-repeat;
+		background-position: center;
+
 		background-size: cover;
-		background-attachment: fixed;
 	}
 	.center {
 		display: block;
-		margin-top: 10%;
-		margin-right: 15vh;
-		margin-left: 15vh;
+		margin-left: 20px;
+	}
+
+	.center {
+		max-width: 100%;
+		margin-top: 5%;
+	}
+	.carousel li {
+		margin-right: -10px;
+		margin-left: 50px;
+	}
+	.carousel-wrapper {
+	}
+
+	.right-arrow {
+		margin-right: -60px;
+		margin-left: 100px;
 	}
 
 	.nav-dot[for="slide1"] {
-		left: 30%; /* Adjust the left position */
+		left: 37%; /* Adjust the left position */
 	}
 	.nav-dot[for="slide2"] {
-		left: 34%; /* Adjust the left position */
+		left: 41%; /* Adjust the left position */
 	}
 	.nav-dot[for="slide3"] {
-		left: 38%; /* Adjust the left position */
+		left: 45%; /* Adjust the left position */
 	}
 	.nav-dot[for="slide4"] {
-		left: 42%; /* Adjust the left position */
+		left: 49%; /* Adjust the left position */
 	}
 	.nav-dot[for="slide5"] {
-		left: 46%; /* Adjust the left position */
+		left: 53%; /* Adjust the left position */
 	}
 
 	.name-item {
-		margin-top: 5%;
-	}
-}
-
-@media screen and (max-width: 500px) {
-	.nav-dot[for="slide1"] {
-		left: 15%; /* Adjust the left position */
-	}
-	.nav-dot[for="slide2"] {
-		left: 22%; /* Adjust the left position */
-	}
-	.nav-dot[for="slide3"] {
-		left: 29%; /* Adjust the left position */
-	}
-	.nav-dot[for="slide4"] {
-		left: 36%; /* Adjust the left position */
-	}
-	.nav-dot[for="slide5"] {
-		left: 43%; /* Adjust the left position */
+		margin-left: 120px;
+		margin-top: 120px;
 	}
 }
