@@ -39,6 +39,7 @@ html {
 /* left container een*/
 
 .left-container {
+	display: flex;
 	justify-content: center; /* Centrer horizontalement */
 }
 .left-content {
