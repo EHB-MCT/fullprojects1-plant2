@@ -27,113 +27,55 @@
 			src="https://kit.fontawesome.com/a69ba37d82.js"
 			crossorigin="anonymous"
 		></script>
-		<script>
-			document.addEventListener("DOMContentLoaded", function () {
-				var aboutToggle = document.getElementById("aboutToggle");
-				var subnav = document.querySelector(".subnav");
-
-				aboutToggle.addEventListener("click", function (event) {
-					// Check if the click was on the arrow icon
-					if (event.target.tagName.toLowerCase() === "i") {
-						if (subnav.style.display === "flex") {
-							subnav.style.display = "none";
-							aboutToggle.classList.remove("open");
-						} else {
-							subnav.style.display = "flex";
-							aboutToggle.classList.add("open");
-						}
-					} else {
-						// Redirect to the "about.html" page when clicking on "ABOUT"
-						window.location.href = "../about - css/about.html";
-					}
-				});
-
-				// Initially hide the subnavigation
-				subnav.style.display = "none";
-			});
-
-			function toggleMobileMenu() {
-				var mobileMenu = document.querySelector(".mobile-menu");
-				mobileMenu.style.display =
-					mobileMenu.style.display === "block" ? "none" : "block";
-			}
-		</script>
 	</head>
 	<body>
-		<div class="container">
-			<!-- left container -->
-			<div class="left-container">
-				<div class="left-content">
-					<!-- navigation -->
-					<div class="nav-container">
-						<a href="../index.html"
-							><img src="../images/Asset 40.png" class="logo" alt="logo"
-						/></a>
-						<ul class="nav-item">
-							<div class="nav-item about">
-								<a href="../about - css/about.html" id="aboutToggle"
-									><b>ABOUT</b> <i class="fas fa-chevron-down"></i
-								></a>
-								<ul class="subnav">
-									<li>
-										<div class="subnav-item">
-											<a href="../team - css/team.html"><b>TEAM</b></a>
-										</div>
-									</li>
-									<li>
-										<div class="subnav-item">
-											<a href="../Values - css/values.html" id="active"
-												><b>VALUES</b></a
-											>
-										</div>
-									</li>
-								</ul>
-							</div>
-							<div class="nav-item">
-								<li>
-									<a href="../Gert Ausloos - css/Ausloos.html"
-										><b>GERT AUSLOOS</b></a
-									>
-								</li>
-							</div>
-							<div class="nav-item">
-								<li>
-									<a href="../blog - css/blog.html"><b>REPORTS</b></a>
-								</li>
-							</div>
-						</ul>
-						<div class="hamburger-menu" onclick="toggleMobileMenu()">
-							&#9776;
-						</div>
-						<div class="mobile-menu" style="display: none">
-							<ul class="nav-item">
-								<li>
-									<a href="../about - css/about.html" id="active"
-										><b>ABOUT</b></a
-									>
-								</li>
-								<li>
-									<a href="../Gert Ausloos - css/Ausloos.html"
-										><b>GERT AUSLOOS</b></a
-									>
-								</li>
-								<div class="navright">
-									<li>
-										<a href="../blog - css/blog.html"><b>REPORTS</b></a>
-									</li>
-								</div>
-							</ul>
-						</div>
-					</div>
-				</div>
+		<nav>
+			<div class="logo" style="display: flex; align-items: center">
+				<a href="../index.html"
+					><img src="../images/Asset 40.png" class="logo" alt="logo"
+				/></a>
 			</div>
-		</div>
+			<div class="hamburger">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+			<ul class="nav-links">
+				<li>
+					<a href="../about - css/about.html"><b>ABOUT</b></a>
+				</li>
+				<li>
+					<a href="../Gert Ausloos - css/Ausloos.html"><b>GERT AUSLOOS</b></a>
+				</li>
+				<li>
+					<a href="../blog - css/blog.html"><b>REPORTS</b></a>
+				</li>
+			</ul>
+		</nav>
+		<script>
+			// Voeg hier je JavaScript-code toe
+			const hamburger = document.querySelector(".hamburger");
+			const navLinks = document.querySelector(".nav-links");
+			const links = document.querySelectorAll(".nav-links li");
 
-		<div class="name-item">
-			<h1>
-				CORE<br />
-				<div class="name-item2">VALUES&nbsp;&nbsp;&nbsp;</div>
-			</h1>
+			hamburger.addEventListener("click", () => {
+				// Animate Links
+				navLinks.classList.toggle("open");
+				links.forEach((link) => {
+					link.classList.toggle("fade");
+				});
+
+				// Hamburger Animation
+				hamburger.classList.toggle("toggle");
+			});
+		</script>
+		<div class="container">
+			<div class="name-item">
+				<h1>
+					CORE<br />
+					<div class="name-item2">VALUES&nbsp;&nbsp;&nbsp;</div>
+				</h1>
+			</div>
 		</div>
 		<div class="center">
 			<div class="carousel-wrapper">
