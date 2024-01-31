@@ -53,11 +53,18 @@ a.orange {
 }
 
 @media screen and (max-width: 648px) {
-	.hamburger-menu {
-		display: block;
-		font-size: 50px;
-		cursor: pointer;
-	}
+	@media screen and (max-width: 648px) {
+		.hamburger-menu {
+			display: block;
+			font-size: 50px;
+			cursor: pointer;
+			position: fixed;
+			top: 0;
+			right: 0;
+			padding: 20px;
+			margin: 20px;
+			z-index: 1000;
+		}
 
 	.nav-item li {
 		display: none;

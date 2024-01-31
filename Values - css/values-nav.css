@@ -3,17 +3,15 @@
 .nav-container {
 	display: flex;
 	padding: 10px;
-	margin-top: -60px;
+	margin-top: 40px;
 	margin-left: 50px;
 }
-
 .nav-item li {
 	display: inline-block;
 	list-style-type: none;
-	margin-left: -25px;
+	margin-left: 25px;
 	margin-right: 25px;
 }
-
 .nav-item a {
 	text-decoration: none;
 	color: #2d2d2d;
@@ -73,7 +71,7 @@ a.orange {
 .nav-item {
 	display: inline-block;
 	list-style-type: none;
-	margin-right: 50px;
+	margin-right: 0px;
 }
 
 /* Subnav Changes */
@@ -124,16 +122,31 @@ a.orange {
 .subnav-item a:hover {
 	color: #ef4f15;
 }
+/* hamburger menu */
+.hamburger-menu {
+	display: block;
+	font-size: 50px;
+	cursor: pointer;
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 20px;
+	margin: 20px;
+	z-index: 1000;
+}
+.mobile-menu {
+	display: none;
+}
 
-/* Media Query for Mobile */
 @media screen and (max-width: 648px) {
 	.hamburger-menu {
 		display: block;
 		font-size: 50px;
 		cursor: pointer;
+		color: #2d2d2d;
 	}
 
-	.nav-item {
+	.nav-item li {
 		display: none;
 	}
 
@@ -164,5 +177,8 @@ a.orange {
 		padding: 5px 10px;
 		border-radius: 7px;
 		transition: background-color 0.5s;
+	}
+	.nav-item.about {
+		visibility: hidden;
 	}
 }
