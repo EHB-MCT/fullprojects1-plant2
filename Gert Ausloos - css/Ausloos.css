@@ -7,7 +7,7 @@ html {
 	overflow-x: hidden;
 }
 
-/* container een*/
+/*--------------container een --------------*/
 .container {
 	display: flex;
 	height: 100vh;
@@ -39,8 +39,8 @@ html {
 
 .left-container {
 	display: flex;
+	justify-content: center; /* Centrer horizontalement */
 }
-
 .left-content {
 	background-color: rgb(255, 255, 255);
 	height: 80vh;
@@ -65,8 +65,7 @@ html {
 	transform: translateY(-2px);
 	background-color: #ef4f15;
 }
-
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 648px) {
 	.right-container {
 		background-image: none;
 	}
@@ -83,7 +82,23 @@ html {
 		transition: 0.3s;
 	}
 }
-/* container twee */
+@media screen and (max-width: 1180px) {
+	.right-container {
+		background-image: none;
+		display: flex;
+	}
+
+	.left-content p {
+		max-width: 350px;
+		margin-top: 200px;
+		transition: 0.3s;
+	}
+
+	.button {
+		transition: 0.3s;
+	}
+}
+/*--------------container twee--------------*/
 
 .container2 {
 	background-color: #2d2d2d;
@@ -96,12 +111,13 @@ html {
 /* right container twee */
 
 .right-container2 p {
-	margin: 120px 10px 30px -70px;
+	margin: 50px 10px 30px -70px;
 	line-height: 1.6;
 	color: #f28c28;
 }
 
 .right-container2 img {
+	width: 340px;
 	margin-left: -70px;
 }
 
@@ -111,8 +127,7 @@ html {
 	height: 100vh;
 	width: 56%;
 }
-
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 648px) {
 	.container2 {
 		background-image: none;
 	}
@@ -121,8 +136,13 @@ html {
 		margin-left: -45px;
 	}
 }
+@media screen and (max-width: 1180px) {
+	.container2 {
+		background-image: none;
+	}
+}
 
-/* container drie*/
+/*--------------container drie --------------*/
 
 .container3 {
 	display: flex;
