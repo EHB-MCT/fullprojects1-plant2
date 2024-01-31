@@ -11,6 +11,9 @@ nav {
 
 .navigation {
 }
+#active {
+	color: #ef4f15;
+}
 
 /*Styling logo*/
 .logo {
@@ -87,7 +90,7 @@ nav {
 		display: block;
 		position: absolute;
 		cursor: pointer;
-		right: 5%;
+		right: 6%;
 		top: 50%;
 		transform: translate(-5%, -50%);
 		z-index: 2;
@@ -96,7 +99,7 @@ nav {
 	.nav-links {
 		position: fixed;
 		background: #131418;
-		height: 100vh;
+		height: 100%;
 		width: 100%;
 		flex-direction: column;
 		clip-path: circle(50px at 90% -20%);
@@ -143,6 +146,7 @@ nav {
 	}
 	.nav-links.open li {
 		margin-top: 175px;
+		margin-left: 50px;
 	}
 	.nav-links {
 		margin-left: 0px;
