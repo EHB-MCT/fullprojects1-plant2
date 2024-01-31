@@ -9,7 +9,7 @@
 }
 
 #orange {
-	color: #ef4f15;
+	color: #e57221;
 }
 
 /* container1 */
@@ -24,6 +24,15 @@
 
 .items-left1 {
 	flex: 1;
+	margin: 0px 0px 0px 40px;
+}
+
+#ons-team {
+	margin: 100px 0px 0px 250px;
+}
+
+.Jan {
+	margin: 150px 0px 0px 250px;
 }
 /* right */
 
@@ -33,7 +42,7 @@
 
 .items-right1 a {
 	padding: 15px 25px;
-	background-color: #ef4f15;
+	background-color: #e57221;
 }
 
 /* container2 */
