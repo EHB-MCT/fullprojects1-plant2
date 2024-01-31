@@ -26,7 +26,7 @@ html {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	margin-right: -45px;
+	margin-right: -20px;
 }
 
 @media screen and (max-width: 1180px) {
@@ -43,7 +43,6 @@ html {
 	justify-content: center; /* Centrer horizontalement */
 }
 .left-content {
-	background-color: rgb(255, 255, 255);
 	height: 80vh;
 	width: 700px;
 }

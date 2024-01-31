@@ -19,8 +19,22 @@
 		<link rel="stylesheet" href="index.css" />
 	</head>
 	<body>
+<<<<<<< HEAD
+		<nav>
+			<div class="logo" style="display: flex; align-items: center">
+				<a href="../index.html" class="active"
+					><img src="./images/Logo active.png" class="logo" alt="logo"
+				/></a>
+			</div>
+			<div class="hamburger">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+			<ul class="nav-links">
+=======
 		<div class="nav-container">
-			<a href="./index.html"
+			<a href="index.html"
 				><img src="./images/Asset 40.png" alt="Logo" class="logo"
 			/></a>
 			<ul class="nav-item">
@@ -38,6 +52,7 @@
 		</div>
 		<div class="mobile-menu" style="display: none">
 			<ul class="nav-item">
+>>>>>>> 046628fbf093aa06ca38d301c7d110f58d8c731e
 				<li>
 					<a href="../about - css/about.html"><b>ABOUT</b></a>
 				</li>
@@ -48,7 +63,24 @@
 					<a href="../blog - css/blog.html"><b>REPORTS</b></a>
 				</li>
 			</ul>
-		</div>
+		</nav>
+		<script>
+			// Voeg hier je JavaScript-code toe
+			const hamburger = document.querySelector(".hamburger");
+			const navLinks = document.querySelector(".nav-links");
+			const links = document.querySelectorAll(".nav-links li");
+
+			hamburger.addEventListener("click", () => {
+				// Animate Links
+				navLinks.classList.toggle("open");
+				links.forEach((link) => {
+					link.classList.toggle("fade");
+				});
+
+				// Hamburger Animation
+				hamburger.classList.toggle("toggle");
+			});
+		</script>
 		<div class="container">
 			<div class="name-item">
 				<h1>
@@ -79,6 +111,14 @@
 
 			<div class="leave3">
 				<img src="images/leave3.svg" alt="" />
+			</div>
+
+			<div class="leave4">
+				<img src="images/leave4.svg" alt="" />
+			</div>
+
+			<div class="leave5">
+				<img src="images/leave5.svg" alt="" />
 			</div>
 		</div>
 	</body>
