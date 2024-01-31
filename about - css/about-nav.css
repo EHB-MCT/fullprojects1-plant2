@@ -29,7 +29,7 @@ nav {
 	width: 105px;
 	padding: 10px;
 	margin-top: 40px;
-	margin-left: 50px;
+	margin-left: 40px;
 }
 
 /*Styling Links*/
@@ -74,10 +74,31 @@ nav {
 
 /*Stying for small screens*/
 @media screen and (max-width: 648px) {
+<<<<<<< HEAD
 	nav {
 		height: -16.5rem;
 		width: 100vw;
 		display: flex;
+=======
+	.hamburger-menu {
+		display: block;
+		font-size: 50px;
+		cursor: pointer;
+		position: fixed;
+		top: 0;
+		right: 0;
+		padding: 20px;
+		margin: 20px;
+		z-index: 1000;
+	}
+
+	.nav-item li {
+		display: none;
+	}
+
+	.mobile-menu {
+		display: block;
+>>>>>>> 7e7adabe7fc968d4b2773926a524a85fbfdd9385
 		position: fixed;
 		z-index: 10;
 	}
