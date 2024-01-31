@@ -48,6 +48,7 @@ body {
 .center {
 	margin-left: 250px;
 	max-width: 70%;
+	margin-top: 30px;
 }
 
 .center,
@@ -62,7 +63,6 @@ body {
 	max-width: 900px; /* Increase the max-width for a wider carousel */
 	width: 100%;
 	display: flex;
-	padding-right: 100px;
 }
 
 .carousel-wrapper input {
@@ -172,7 +172,7 @@ body {
 }
 
 .right-arrow {
-	right: 130px;
+	right: 90px;
 	background-image: url(../Images/rightarrow.png);
 }
 
@@ -255,7 +255,7 @@ li p {
 .carousel li {
 	width: 100%; /* Adjust the width of each individual slide */
 	padding-right: 60px; /* Adjust the padding between slides */
-	margin-left: 85px;
+	margin-left: 40px;
 }
 @media screen and (max-width: 1246px) {
 	.name-item {
@@ -272,21 +272,22 @@ li p {
 	}
 	.center {
 		display: block;
-		margin-left: 70px;
+		margin-left: 20px;
 	}
 
 	.center {
 		max-width: 100%;
+		margin-top: 5%;
 	}
 	.carousel li {
-		margin-right: -60px;
+		margin-right: -10px;
+		margin-left: 50px;
 	}
 	.carousel-wrapper {
-		padding-right: 20%;
 	}
 
 	.right-arrow {
-		margin-right: -100px;
+		margin-right: -60px;
 		margin-left: 100px;
 	}
 
@@ -307,7 +308,7 @@ li p {
 	}
 
 	.name-item {
-		margin-top: 5%;
-		margin-left: 210px;
+		margin-left: 120px;
+		margin-top: 120px;
 	}
 }
