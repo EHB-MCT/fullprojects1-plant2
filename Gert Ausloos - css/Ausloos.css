@@ -10,13 +10,13 @@ html {
 /*--------------container een --------------*/
 .container {
 	display: flex;
-	height: 100vh;
+	height: 98vh;
 }
 
 .left-container,
 .right-container {
 	flex: 1;
-	height: 100vh;
+	height: 98vh;
 }
 /* right container een */
 .right-container {
@@ -111,7 +111,7 @@ html {
 /* right container twee */
 
 .right-container2 p {
-	margin: 50px 10px 30px -70px;
+	margin: 65px 10px 30px -70px;
 	line-height: 1.6;
 	color: #f28c28;
 }
@@ -155,6 +155,10 @@ html {
 	justify-content: center;
 	width: 500px;
 	margin: 30px 40px 10px 0px;
+}
+
+.container3 img:hover {
+	color: green;
 }
 
 .container3 p {
