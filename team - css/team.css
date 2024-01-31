@@ -43,11 +43,34 @@
 .items-right1 a {
 	padding: 15px 25px;
 	background-color: #e57221;
+	text-decoration: none;
+	color: white;
 }
 
 /* container2 */
 .container2 {
 	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	height: 50vh;
 	background-color: #2d2d2d;
+}
+
+/* left */
+.items-left2 {
+	flex: 1;
+	margin: 0px 0px 0px 40px;
+}
+
+/* right */
+
+.items-right2 {
+	flex: 1;
+}
+
+.items-right2 a {
+	padding: 15px 25px;
+	background-color: #e57221;
+	text-decoration: none;
+	color: white;
 }
