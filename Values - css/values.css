@@ -13,7 +13,7 @@ body {
 
 .quote-item {
 	margin-left: 22%;
-	color: #ef4f15;
+	color: #e57221;
 }
 
 .name-item {
@@ -21,7 +21,7 @@ body {
 	color: #2d2d2d;
 	font-size: 25px;
 	line-height: 0.9;
-	margin-left: 375px;
+	margin-left: 365px;
 	justify-items: baseline;
 }
 .name-item2 {
@@ -93,7 +93,7 @@ body {
 	width: 10px;
 	height: 10px;
 	opacity: 0.5;
-	background-color: #ed742c;
+	background-color: #e57221;
 	border-radius: 50%;
 	transition: 0.4s;
 }
@@ -245,7 +245,7 @@ li h1 {
 
 li p {
 	text-align: left;
-	color: #f28c28;
+	color: #e57221;
 	font-family: "poppins", sans-serif;
 	font-style: normal;
 	text-shadow: none;

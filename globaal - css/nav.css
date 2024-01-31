@@ -42,7 +42,7 @@ nav {
 	margin-top: -46px;
 }
 #active {
-	color: #ef4f15;
+	color: #e57221;
 }
 .nav-links li a {
 	text-decoration: none;
@@ -51,7 +51,7 @@ nav {
 	margin-right: 45px;
 }
 .nav-links li a:hover {
-	color: #ef4f15;
+	color: #e57221;
 }
 .nav-links li {
 	position: relative;
