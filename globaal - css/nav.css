@@ -3,6 +3,10 @@
 	margin-top: 50px;
 	margin-left: 50px;
 }
+
+.no-margin {
+	margin-top: 0;
+}
 .nav-item li {
 	display: inline-block;
 	list-style-type: none;
