@@ -83,7 +83,7 @@ nav {
 		z-index: 10;
 	}
 	nav {
-		position: fixed;
+		position: relative;
 		z-index: 3;
 	}
 	.hamburger {
