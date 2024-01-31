@@ -45,6 +45,12 @@ a.orange {
 		display: block;
 		font-size: 50px;
 		cursor: pointer;
+		position: absolute; /* Changer la position en absolute */
+		top: -10px;
+		right: 10px; /* Modifier la valeur de right selon vos besoins */
+		padding: 10;
+		margin: 10;
+		z-index: 1000;
 	}
 
 	.nav-item li {
