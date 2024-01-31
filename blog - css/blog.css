@@ -2,7 +2,7 @@
 .container {
 	display: flex;
 	flex-direction: column;
-	height: 100vh;
+	height: 97vh;
 	background-image: url(../images/Asset\ 32.svg);
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -10,7 +10,7 @@
 }
 .name-item {
 	margin-left: 25%;
-	margin-top: 100px;
+	margin-top: 50px;
 	color: #2d2d2d;
 	font-size: 35px;
 	line-height: 0.9;
@@ -139,18 +139,17 @@
 		text-align: center;
 	}
 	.container {
-		margin-bottom: -200px;
 		.name-item {
 			margin-top: 150px;
 		}
+		
 	}
 }
-@media screen and (max-width: 560px) {
-	.container {
-		margin-bottom: -100px;
-	}
-}
+
 @media screen and (max-width: 425px) {
+	.name-item {
+		margin-left: 10%;
+	}
 	.allBooks div {
 		text-align: center;
 		height: 300px;
@@ -158,11 +157,13 @@
 	.container {
 		margin-bottom: 0px;
 	}
-}
-
-@media screen and (max-width: 425px) {
 	.container3 {
 		background-image: none;
+	}
+}
+@media screen and (max-width: 363px) {
+	.text {
+		margin-right: 0;
 	}
 }
 
