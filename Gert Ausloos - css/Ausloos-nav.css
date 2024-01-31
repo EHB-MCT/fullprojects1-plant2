@@ -77,7 +77,6 @@ nav {
 		height: -16.5rem;
 		width: 100vw;
 		display: flex;
-		position: fixed;
 		z-index: 10;
 	}
 	nav {
