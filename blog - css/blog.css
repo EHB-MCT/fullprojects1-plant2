@@ -138,12 +138,6 @@
 	.allBooks div {
 		text-align: center;
 	}
-	.container {
-		.name-item {
-			margin-top: 150px;
-		}
-		
-	}
 }
 
 @media screen and (max-width: 425px) {
