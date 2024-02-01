@@ -48,7 +48,7 @@
 }
 
 .Jan {
-	margin: 180px 0px 0px 250px;
+	margin: 180px 0px 0px 200px;
 }
 /*! right */
 
@@ -88,14 +88,14 @@
 /*! left */
 .items-left2 {
 	flex: 1;
-	margin: 250px 0px 0px 250px;
+	margin: 220px 0px 0px 250px;
 }
 
 /*! right */
 
 .items-right2 {
 	flex: 1;
-	margin: 250px 200px 0px 0px;
+	margin: 220px 200px 0px 0px;
 }
 
 .items-right2 a {
@@ -106,7 +106,7 @@
 }
 
 .button2 a {
-	margin-top: 40px;
+	margin-top: 20px;
 	padding: 15px 25px;
 	background-color: #e57221;
 	text-decoration: none;
