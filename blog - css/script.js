@@ -1,18 +1,15 @@
-// variables
-var accordionBtn = document.querySelectorAll(".accordionTitle");
-var allTexts = document.querySelectorAll(".text");
-var accIcon = document.querySelectorAll(".accIcon");
+let accordionBtn = document.querySelectorAll(".accordionTitle");
+let allTexts = document.querySelectorAll(".text");
+let accIcon = document.querySelectorAll(".accIcon");
 
-// event listener
 accordionBtn.forEach(function (el) {
 	el.addEventListener("click", toggleAccordion);
 });
 
-// function
 function toggleAccordion(el) {
-	var targetText = el.currentTarget.nextElementSibling.classList;
-	var targetAccIcon = el.currentTarget.children[0];
-	var target = el.currentTarget;
+	let targetText = el.currentTarget.nextElementSibling.classList;
+	let targetAccIcon = el.currentTarget.children[0];
+	let target = el.currentTarget;
 
 	if (targetText.contains("show")) {
 		targetText.remove("show");
