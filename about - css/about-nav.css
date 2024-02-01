@@ -6,11 +6,7 @@
 body {
 	overflow-x: hidden;
 }
-nav {
-}
 
-.navigation {
-}
 #active {
 	color: #e57221;
 }
@@ -97,7 +93,7 @@ nav {
 	.nav-links {
 		position: fixed;
 		background: #131418;
-		height: 100%;
+		height: 1000px;
 		width: 100%;
 		flex-direction: column;
 		clip-path: circle(50px at 90% -20%);
@@ -107,7 +103,7 @@ nav {
 	}
 	.nav-links.open {
 		clip-path: circle(1000px at 90% -10%);
-		-webkit-clip-path: circle(1000px at 90% -9%);
+		-webkit-clip-path: circle(2000px at 90% -9%);
 		pointer-events: all;
 	}
 	.nav-links li a {
