@@ -1,0 +1,197 @@
+#wrapper {
+	margin: 5%;
+	margin-top: 15%;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Accordion Container */
+.container5 {
+	width: 100%;
+	max-width: 500px;
+	min-width: 300px;
+	position: relative;
+	display: flex; /* Add flex container */
+	flex-direction: column; /* Align items vertically by default */
+}
+
+/* shadow */
+.container5:before {
+	content: "";
+	position: absolute;
+	width: calc(100% - 30px);
+	height: 100%;
+	margin: 0;
+	left: 15px;
+	background-color: transparent;
+	top: 0px;
+	opacity: 0.2;
+	z-index: -1;
+	transition: ease-in-out 0.6s all;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border-radius: 3px;
+}
+
+.accordionTitle {
+	padding: 100px;
+	position: relative;
+	margin: 0;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 0.8px;
+	transition: ease-in-out 0.2s all;
+	cursor: pointer;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+/* Accordion Item line */
+.accordionTitle:before,
+.accordionTitle:after {
+	content: "";
+	position: absolute;
+	height: 2px;
+	border-radius: 50px;
+	transition: ease-in-out 0.6s all;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.accordionTitle:before {
+	width: 100%;
+}
+
+.accordionTitle:after {
+	background-image: linear-gradient(90deg);
+	width: 0%;
+}
+
+.accordionTitle:hover::after {
+	width: 100%;
+}
+
+/* Accordion Item line - Active */
+.accordionTitleActive:after {
+	content: "";
+	position: absolute;
+	height: 2px;
+	border-radius: 50px;
+	transition: ease-in-out 0.6s all;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.accordionTitleActive:after {
+	background-image: linear-gradient(90deg);
+	width: 100%;
+}
+
+/* Accordion Item Icon  */
+.accIcon {
+	float: right;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	margin-top: -3px;
+	align-items: center;
+	justify-content: center;
+}
+
+.accIcon:before,
+.accIcon:after {
+	content: "";
+	position: absolute;
+	border-radius: 50px;
+
+	transition: ease 0.3s all;
+}
+
+.accIcon:before {
+	width: 2px;
+	height: 20px;
+}
+
+.accIcon:after {
+	width: 20px;
+	height: 2px;
+}
+
+.accordionTitle:hover .accIcon:before,
+.accordionTitle:hover .accIcon:after {
+}
+
+.accIcon.anime.accIcon:before {
+	transform: rotate(90deg);
+}
+
+/* Text Content */
+.accordion .item .text5 {
+	opacity: 0;
+
+	margin-left: 20px;
+	padding: 1% 10px;
+	position: relative;
+	line-height: 24px;
+	font-size: 16px;
+	font-weight: 200;
+	transition: all 0.6s cubic-bezier(0.42, 0.2, 0.08, 1);
+	overflow: hidden;
+
+	letter-spacing: 0.5px;
+	margin-right: 20px;
+}
+
+/* Text Content - Class for JS to hide and show */
+.accordion .item .text5.show {
+	opacity: 1;
+	height: auto;
+	margin-left: 100px;
+	margin-right: 100px;
+	position: relative;
+	z-index: 0;
+	border-radius: 0px 0px 3px 3px;
+}
+
+.accordion {
+	display: flex;
+	flex-direction: row;
+}
+
+.item img {
+	width: 230px;
+}
+.item {
+	align-items: center;
+}
+
+.text5 {
+	text-align: center;
+	color: #e57221;
+}
+
+.text5 a {
+	color: #e57221;
+}
+
+@media screen and (max-width: 770px) {
+	.accordion,
+	.item,
+	.container5,
+	#wrapper,
+	.accordion ul,
+	.container5 div {
+		text-align: center;
+		justify-content: center;
+	}
+}
