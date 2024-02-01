@@ -1,12 +1,10 @@
-/* body + nav */
+/*! body + nav */
 .body-container {
 	background-image: url(../images/top_organic_form.svg);
 	background-position: top left;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: contain;
-
-	/* height: 100vh; */
 }
 
 #orange {
@@ -18,15 +16,21 @@
 	margin-left: 50px;
 }
 
-/* container1 */
+@media screen and (max-width: 1027px) {
+	.body-container {
+		background-image: none;
+	}
+}
+
+/*! container1 */
 .container1 {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	height: 95vh;
+	height: 80vh;
 }
 
-/* left */
+/*! left */
 
 .items-left1 {
 	flex: 1;
@@ -41,7 +45,7 @@
 .Jan {
 	margin: 150px 0px 0px 250px;
 }
-/* right */
+/*! right */
 
 .items-right1 {
 	flex: 1;
@@ -65,7 +69,12 @@
 	margin: 430px 0px 0px 0px;
 }
 
-/* container2 */
+@media screen and (max-width: 1402px) {
+	.items-right1 {
+		margin: 430px 0px 0px 100px;
+	}
+}
+/*! container2 */
 .container2 {
 	display: flex;
 	flex-direction: row;
@@ -74,13 +83,13 @@
 	background-color: #2d2d2d;
 }
 
-/* left */
+/*! left */
 .items-left2 {
 	flex: 1;
 	margin: 250px 0px 0px 250px;
 }
 
-/* right */
+/*! right */
 
 .items-right2 {
 	flex: 1;
@@ -108,7 +117,7 @@
 	background-color: #ef4f15;
 }
 
-/* container3 */
+/*! container3 */
 .container3 {
 	display: flex;
 	flex-direction: row;
@@ -117,7 +126,7 @@
 	background-color: none;
 }
 
-/* left */
+/*! left */
 .items-left3 {
 	flex: 1;
 	background-image: url(../images/middel_organic_form.svg);
@@ -131,7 +140,7 @@
 	margin: 250px 0px 0px 250px;
 }
 
-/* right */
+/*! right */
 
 .items-right3 {
 	flex: 1;
@@ -159,7 +168,7 @@
 	background-color: #ef4f15;
 }
 
-/* container4 */
+/*! container4 */
 .container4 {
 	display: flex;
 	flex-direction: row;
@@ -168,7 +177,7 @@
 	background-color: #2d2d2d;
 }
 
-/* left */
+/*! left */
 .items-left4 {
 	flex: 1;
 }
@@ -177,7 +186,7 @@
 	margin: 250px 0px 0px 250px;
 }
 
-/* right */
+/*! right */
 
 .items-right4 {
 	flex: 1;
@@ -205,7 +214,7 @@
 	background-color: #ef4f15;
 }
 
-/* container5 */
+/*! container5 */
 .container5 {
 	display: flex;
 	flex-direction: row;
@@ -214,7 +223,7 @@
 	background-color: none;
 }
 
-/* left */
+/*! left */
 .items-left5 {
 	flex: 1;
 	background-image: url(../images/bottom_organic_form.svg);
@@ -228,7 +237,7 @@
 	margin: 250px 0px 0px 250px;
 }
 
-/* right */
+/*! right */
 
 .items-right5 {
 	flex: 1;
