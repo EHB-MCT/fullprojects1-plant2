@@ -6,11 +6,7 @@
 body {
 	overflow-x: hidden;
 }
-nav {
-}
 
-.navigation {
-}
 #active {
 	color: #e57221;
 }
@@ -80,6 +76,7 @@ nav {
 		width: 100vw;
 		display: flex;
 		z-index: 10;
+		margin-top: 40px;
 	}
 	nav {
 		position: fixed;
