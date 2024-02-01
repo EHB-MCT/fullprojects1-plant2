@@ -41,7 +41,7 @@
 .container2 {
 	background-color: #2d2d2d;
 	display: flex;
-	height: 50vh;
+	height: 40vh;
 	width: auto;
 }
 .name-item3 {
@@ -66,34 +66,6 @@
 .allBooks div {
 	text-align: center;
 }
-.dropdown-content {
-	display: none;
-	position: absolute;
-	background-color: white;
-	min-width: 237px;
-	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-	margin-left: 50px;
-	color: #e57221;
-	margin-top: -4px;
-	a {
-		color: #e57221;
-	}
-}
-.dropdown-content:hover {
-	a {
-		color: #fb8d3e;
-	}
-}
-.allBooks div:hover .dropdown-content {
-	display: block;
-}
-
-.dropdown-item {
-	color: white;
-	text-decoration: none;
-	display: block;
-}
-
 /* JOIN NEXT EVENT? */
 .container3 {
 	display: flex;
@@ -124,8 +96,11 @@
 
 /* SCREEN SIZE VARIATIONS */
 @media screen and (max-width: 1024px) {
+	.container {
+		height: 115vh;
+	}
 	.name-item5 {
-		margin-left: 6%;
+		margin-left: 6px;
 		font-size: 25px;
 	}
 }
@@ -134,10 +109,6 @@
 	.allBooks div {
 		text-align: center;
 		height: 400px;
-	}
-	.dropdown-content {
-		min-width: 210px;
-		margin-left: 0;
 	}
 }
 
@@ -164,18 +135,12 @@
 	}
 }
 @media screen and (max-width: 648px) {
-	.name-item {
-		margin-left: 5%;
-	}
 	.allBooks {
 		flex-direction: column;
 		justify-content: center;
 	}
 	.allBooks div {
 		text-align: center;
-	}
-	.name-item5 {
-		margin-left: 20px;
 	}
 }
 @media screen and (max-width: 460px) {
@@ -184,7 +149,10 @@
 	}
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 425px) {
+	.name-item {
+		margin-left: 10%;
+	}
 	.allBooks div {
 		text-align: center;
 		height: 300px;
@@ -199,5 +167,11 @@
 @media screen and (max-width: 363px) {
 	.text {
 		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 336px) {
+	.container {
+		height: 120vh;
 	}
 }
