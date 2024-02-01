@@ -28,8 +28,9 @@
 	margin: 0px 0px 0px 40px;
 }
 
-#ons-team {
+.ons-team {
 	margin: 100px 0px 0px 250px;
+	font-size: 40px;
 }
 
 .Jan {
@@ -41,11 +42,22 @@
 	flex: 1;
 }
 
-.items-right1 a {
+.button1 a {
+	margin-top: 40px;
 	padding: 15px 25px;
-	background-color: #e57221;
+	background-color: #2d2d2d;
 	text-decoration: none;
+	display: inline-block;
 	color: white;
+}
+
+.button1 a:hover {
+	transform: translateY(-2px);
+	background-color: #ef4f15;
+}
+
+.items-right1 {
+	margin: 430px 0px 0px 0px;
 }
 
 /* container2 */
@@ -74,4 +86,18 @@
 	background-color: #e57221;
 	text-decoration: none;
 	color: white;
+}
+
+.button2 a {
+	margin-top: 40px;
+	padding: 15px 25px;
+	background-color: #e57221;
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+}
+
+.button2 a:hover {
+	transform: translateY(-2px);
+	background-color: #ef4f15;
 }
