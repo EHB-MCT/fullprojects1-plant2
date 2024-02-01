@@ -23,6 +23,12 @@ body {
 	margin-left: 50px;
 }
 
+@media screen and (max-width: 1180px) {
+	.Jan {
+		margin: 50px 100px 0px 50px;
+	}
+}
+
 @media screen and (max-width: 1027px) {
 	.body-container {
 		background-image: none;
@@ -34,7 +40,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	height: 80vh;
+	height: 85vh;
 }
 
 /*! left */
@@ -58,7 +64,7 @@ body {
 }
 
 .Jan {
-	margin: 180px 0px 0px 190px;
+	margin: 150px 0px 0px 190px;
 }
 /*! right */
 
@@ -85,7 +91,7 @@ body {
 @media screen and (max-width: 1402px) {
 	/*! right */
 	.items-right1 {
-		margin: 430px 0px 0px 100px;
+		margin: 400px 0px 0px 100px;
 	}
 }
 
@@ -126,7 +132,7 @@ body {
 	}
 
 	.ons-team {
-		font-size: 20px;
+		font-size: 45px;
 	}
 }
 
@@ -415,7 +421,7 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: contain;
-	background-size: 100vh;
+	background-size: 110vh;
 }
 
 .text-items-left5 {
