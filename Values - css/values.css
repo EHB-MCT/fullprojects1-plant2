@@ -17,7 +17,7 @@ body {
 }
 
 .name-item {
-	margin-top: 100px;
+	margin-top: 80px;
 	color: #2d2d2d;
 	font-size: 25px;
 	line-height: 0.9;
@@ -262,6 +262,45 @@ li p {
 		margin-left: 330px;
 	}
 }
+@media screen and (max-width: 1061px) {
+	.center {
+		margin-top: 30px;
+	}
+	.hele-carousel {
+		margin-top: -40px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.hele-carousel {
+		margin-left: -80px;
+	}
+	.right-arrow {
+		margin-right: -20px;
+	}
+	.center {
+		margin-top: 30px;
+	}
+}
+@media screen and (max-width: 856px) {
+	.nav-dot {
+		bottom: -30px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.hele-carousel {
+		margin-left: -140px;
+	}
+}
+@media screen and (max-width: 700px) {
+	.hele-carousel {
+		margin-left: -190px;
+	}
+	.center {
+		margin-top: 30px;
+	}
+}
 
 @media screen and (max-width: 648px) {
 	body {
@@ -283,7 +322,7 @@ li p {
 	}
 	.carousel li {
 		margin-right: -10px;
-		margin-left: 30px;
+		margin-left: 40px;
 	}
 	.carousel-wrapper {
 	}
@@ -309,8 +348,43 @@ li p {
 		left: 56%; /* Adjust the left position */
 	}
 
+	.nav-dot {
+		bottom: -40px;
+	}
+
 	.name-item {
 		margin-left: 100px;
 		margin-top: 120px;
+	}
+	.hele-carousel {
+		margin-left: -10px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.right-arrow {
+		margin-right: -60px;
+	}
+	.nav-dot {
+		bottom: 10px;
+	}
+}
+@media screen and (max-width: 470px) {
+	.right-arrow {
+		margin-right: -100px;
+	}
+	.carousel li {
+		margin-right: -50px;
+		margin-left: 40px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.right-arrow {
+		margin-right: -150px;
+	}
+	.carousel li {
+		margin-right: -60px;
+		margin-left: 40px;
 	}
 }
