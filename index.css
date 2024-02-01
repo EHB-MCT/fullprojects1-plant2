@@ -12,35 +12,42 @@ body {
 }
 
 .quote-item {
-	margin-left: 22%;
-	color: #ef4f15;
+	margin-top: -2%;
+	margin-left: 19%;
+	color: #e57221;
 }
 
 .name-item {
-	margin-left: 6%;
-	margin-top: 150px;
+	margin-left: 11%;
+	margin-top: 140px;
 	color: #2d2d2d;
 	font-size: 50px;
 	line-height: 0.9;
 }
 .name-item2 {
-	margin-left: 160px;
+	margin-left: 110px;
 	margin-right: 50px;
 }
 @media screen and (max-width: 648px) {
 	body {
 		background-image: url(./images/Asset\ 9.svg);
-		background-size: contain;
 		background-position: top;
 	}
+	.name-item {
+		margin-left: 18%;
+		margin-top: 110px;
+		color: #2d2d2d;
+		font-size: 50px;
+		line-height: 0.9;
+	}
 	.name-item2 {
-		margin-left: 60px;
+		margin-left: 65px;
 	}
 	.quote-item {
-		margin-left: 40%;
+		margin-left: 33%;
 	}
 	.name-item {
-		font-size: 30px;
+		font-size: 35px;
 	}
 
 	.falling-leaves {

@@ -6,12 +6,10 @@
 body {
 	overflow-x: hidden;
 }
-nav {
-}
 
-.navigation {
+#active {
+	color: #e57221;
 }
-
 /*Styling logo*/
 .logo {
 	text-align: center;
@@ -28,7 +26,6 @@ nav {
 	padding: 10px;
 	margin-top: 40px;
 	margin-left: 50px;
-	mix-blend-mode: color-burn;
 }
 
 /*Styling Links*/
@@ -40,9 +37,6 @@ nav {
 	text-transform: uppercase;
 	margin-left: 210px;
 	margin-top: -46px;
-}
-#active {
-	color: #e57221;
 }
 .nav-links li a {
 	text-decoration: none;
@@ -99,7 +93,7 @@ nav {
 	.nav-links {
 		position: fixed;
 		background: #131418;
-		height: 100%;
+		height: 1000px;
 		width: 100%;
 		flex-direction: column;
 		clip-path: circle(50px at 90% -20%);
@@ -109,7 +103,7 @@ nav {
 	}
 	.nav-links.open {
 		clip-path: circle(1000px at 90% -10%);
-		-webkit-clip-path: circle(1000px at 90% -9%);
+		-webkit-clip-path: circle(2000px at 90% -9%);
 		pointer-events: all;
 	}
 	.nav-links li a {

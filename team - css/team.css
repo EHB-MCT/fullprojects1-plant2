@@ -1,27 +1,36 @@
-/* body + nav */
+/*! body + nav */
 .body-container {
 	background-image: url(../images/top_organic_form.svg);
 	background-position: top left;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: contain;
-
-	/* height: 100vh; */
 }
 
 #orange {
 	color: #e57221;
 }
 
-/* container1 */
+#orange-shift {
+	color: #e57221;
+	margin-left: 50px;
+}
+
+@media screen and (max-width: 1027px) {
+	.body-container {
+		background-image: none;
+	}
+}
+
+/*! container1 */
 .container1 {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	height: 95vh;
+	height: 80vh;
 }
 
-/* left */
+/*! left */
 
 .items-left1 {
 	flex: 1;
@@ -36,7 +45,7 @@
 .Jan {
 	margin: 150px 0px 0px 250px;
 }
-/* right */
+/*! right */
 
 .items-right1 {
 	flex: 1;
@@ -47,6 +56,7 @@
 	padding: 15px 25px;
 	background-color: #2d2d2d;
 	text-decoration: none;
+	display: inline-block;
 	color: white;
 }
 
@@ -59,25 +69,31 @@
 	margin: 430px 0px 0px 0px;
 }
 
-/* container2 */
+@media screen and (max-width: 1402px) {
+	.items-right1 {
+		margin: 430px 0px 0px 100px;
+	}
+}
+/*! container2 */
 .container2 {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	height: 50vh;
+	height: 70vh;
 	background-color: #2d2d2d;
 }
 
-/* left */
+/*! left */
 .items-left2 {
 	flex: 1;
-	margin: 0px 0px 0px 40px;
+	margin: 250px 0px 0px 250px;
 }
 
-/* right */
+/*! right */
 
 .items-right2 {
 	flex: 1;
+	margin: 250px 200px 0px 0px;
 }
 
 .items-right2 a {
@@ -85,4 +101,166 @@
 	background-color: #e57221;
 	text-decoration: none;
 	color: white;
+}
+
+.button2 a {
+	margin-top: 40px;
+	padding: 15px 25px;
+	background-color: #e57221;
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+}
+
+.button2 a:hover {
+	transform: translateY(-2px);
+	background-color: #ef4f15;
+}
+
+/*! container3 */
+.container3 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 70vh;
+	background-color: none;
+}
+
+/*! left */
+.items-left3 {
+	flex: 1;
+	background-image: url(../images/middel_organic_form.svg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: contain;
+}
+
+.text-items-left3 {
+	margin: 250px 0px 0px 250px;
+}
+
+/*! right */
+
+.items-right3 {
+	flex: 1;
+	margin: 250px 0px 0px 40px;
+}
+
+.items-right3 a {
+	padding: 15px 25px;
+	background-color: #e57221;
+	text-decoration: none;
+	color: white;
+}
+
+.button3 a {
+	margin-top: 40px;
+	padding: 15px 25px;
+	background-color: #2d2d2d;
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+}
+
+.button3 a:hover {
+	transform: translateY(-2px);
+	background-color: #ef4f15;
+}
+
+/*! container4 */
+.container4 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 70vh;
+	background-color: #2d2d2d;
+}
+
+/*! left */
+.items-left4 {
+	flex: 1;
+}
+
+.text-items-left4 {
+	margin: 250px 0px 0px 250px;
+}
+
+/*! right */
+
+.items-right4 {
+	flex: 1;
+	margin: 250px 0px 0px 40px;
+}
+
+.items-right4 a {
+	padding: 15px 25px;
+	background-color: #2d2d2d;
+	text-decoration: none;
+	color: white;
+}
+
+.button4 a {
+	margin-top: 40px;
+	padding: 15px 25px;
+	background-color: #e57221;
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+}
+
+.button4 a:hover {
+	transform: translateY(-2px);
+	background-color: #ef4f15;
+}
+
+/*! container5 */
+.container5 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 70vh;
+	background-color: none;
+}
+
+/*! left */
+.items-left5 {
+	flex: 1;
+	background-image: url(../images/bottom_organic_form.svg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: contain;
+}
+
+.text-items-left5 {
+	margin: 250px 0px 0px 250px;
+}
+
+/*! right */
+
+.items-right5 {
+	flex: 1;
+	margin: 250px 0px 0px 40px;
+}
+
+.items-right5 a {
+	padding: 15px 25px;
+	background-color: #2d2d2d;
+	text-decoration: none;
+	color: white;
+}
+
+.button5 a {
+	margin-top: 40px;
+	padding: 15px 25px;
+	background-color: #2d2d2d;
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+}
+
+.button5 a:hover {
+	transform: translateY(-2px);
+	background-color: #ef4f15;
 }
