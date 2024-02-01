@@ -48,7 +48,7 @@
 }
 
 .Jan {
-	margin: 180px 0px 0px 200px;
+	margin: 180px 0px 0px 190px;
 }
 /*! right */
 
@@ -88,7 +88,7 @@
 /*! left */
 .items-left2 {
 	flex: 1;
-	margin: 220px 0px 0px 250px;
+	margin: 220px 0px 0px 230px;
 }
 
 /*! right */
@@ -140,14 +140,14 @@
 }
 
 .text-items-left3 {
-	margin: 250px 0px 0px 250px;
+	margin: 240px 0px 0px 230px;
 }
 
 /*! right */
 
 .items-right3 {
 	flex: 1;
-	margin: 250px 0px 0px 40px;
+	margin: 240px 0px 0px 40px;
 }
 
 .items-right3 a {
@@ -158,7 +158,7 @@
 }
 
 .button3 a {
-	margin-top: 40px;
+	margin-top: 20px;
 	padding: 15px 25px;
 	background-color: #2d2d2d;
 	text-decoration: none;
@@ -186,14 +186,14 @@
 }
 
 .text-items-left4 {
-	margin: 250px 0px 0px 250px;
+	margin: 230px 0px 0px 240px;
 }
 
 /*! right */
 
 .items-right4 {
 	flex: 1;
-	margin: 250px 0px 0px 40px;
+	margin: 230px 0px 0px 40px;
 }
 
 .items-right4 a {
@@ -204,7 +204,7 @@
 }
 
 .button4 a {
-	margin-top: 40px;
+	margin-top: 20px;
 	padding: 15px 25px;
 	background-color: #e57221;
 	text-decoration: none;
@@ -238,14 +238,14 @@
 }
 
 .text-items-left5 {
-	margin: 250px 0px 0px 250px;
+	margin: 230px 0px 0px 250px;
 }
 
 /*! right */
 
 .items-right5 {
 	flex: 1;
-	margin: 250px 0px 0px 40px;
+	margin: 230px 0px 0px 40px;
 }
 
 .items-right5 a {
@@ -256,7 +256,7 @@
 }
 
 .button5 a {
-	margin-top: 40px;
+	margin-top: 20px;
 	padding: 15px 25px;
 	background-color: #2d2d2d;
 	text-decoration: none;
