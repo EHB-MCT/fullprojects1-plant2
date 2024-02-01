@@ -268,6 +268,7 @@ li p {
 	}
 	.hele-carousel {
 		margin-top: -40px;
+		margin-left: -70px;
 	}
 }
 
@@ -292,13 +293,16 @@ li p {
 	.hele-carousel {
 		margin-left: -140px;
 	}
+	.center {
+		margin-top: -10px;
+	}
 }
 @media screen and (max-width: 700px) {
 	.hele-carousel {
 		margin-left: -190px;
 	}
 	.center {
-		margin-top: 30px;
+		margin-top: -20px;
 	}
 }
 
@@ -323,8 +327,6 @@ li p {
 	.carousel li {
 		margin-right: -10px;
 		margin-left: 40px;
-	}
-	.carousel-wrapper {
 	}
 
 	.right-arrow {
@@ -366,7 +368,7 @@ li p {
 		margin-right: -60px;
 	}
 	.nav-dot {
-		bottom: 10px;
+		bottom: -10px;
 	}
 }
 @media screen and (max-width: 470px) {
@@ -379,12 +381,107 @@ li p {
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 426px) {
 	.right-arrow {
 		margin-right: -150px;
 	}
 	.carousel li {
 		margin-right: -60px;
 		margin-left: 40px;
+	}
+	.hele-carousel {
+		margin-left: -30px;
+	}
+	.name-item {
+		margin-left: 90px;
+		margin-top: 160px;
+	}
+	.nav-dot {
+		bottom: -30px;
+	}
+	.right-arrow {
+		margin-right: -110px;
+	}
+	.nav-dot[for="slide1"] {
+		left: 42%; /* Adjust the left position */
+	}
+	.nav-dot[for="slide2"] {
+		left: 47%; /* Adjust the left position */
+	}
+	.nav-dot[for="slide3"] {
+		left: 52%; /* Adjust the left position */
+	}
+	.nav-dot[for="slide4"] {
+		left: 57%; /* Adjust the left position */
+	}
+	.nav-dot[for="slide5"] {
+		left: 62%; /* Adjust the left position */
+	}
+}
+
+@media screen and (max-width: 321px) {
+	.right-arrow {
+		margin-right: -190px;
+	}
+	.nav-dot[for="slide1"] {
+		left: 57%; /* Adjust the left position */
+	}
+	.nav-dot[for="slide2"] {
+		left: 62%; /* Adjust the left position */
+	}
+	.nav-dot[for="slide3"] {
+		left: 67%; /* Adjust the left position */
+	}
+	.nav-dot[for="slide4"] {
+		left: 72%; /* Adjust the left position */
+	}
+	.nav-dot[for="slide5"] {
+		left: 77%; /* Adjust the left position */
+	}
+	.carousel {
+		margin-right: -80px;
+		margin-left: 60px;
+		margin-top: 10px;
+	}
+	.carousel li {
+		margin-right: -100px;
+		margin-left: 40px;
+	}
+	.carousel p {
+		margin-right: 40px;
+	}
+
+	.nav-dot {
+		bottom: -50px;
+	}
+}
+
+@media screen and (max-width: 281px) {
+	.right-arrow {
+		margin-right: -240px;
+	}
+	.carousel p {
+		margin-right: 50px;
+	}
+	.nav-dot[for="slide1"] {
+		left: 55%; /* Adjust the left position */
+	}
+	.nav-dot[for="slide2"] {
+		left: 65%; /* Adjust the left position */
+	}
+	.nav-dot[for="slide3"] {
+		left: 75%; /* Adjust the left position */
+	}
+	.nav-dot[for="slide4"] {
+		left: 85%; /* Adjust the left position */
+	}
+	.nav-dot[for="slide5"] {
+		left: 95%; /* Adjust the left position */
+	}
+	.nav-dot {
+		bottom: -20px;
+	}
+	.carousel {
+		margin-left: 90px;
 	}
 }
