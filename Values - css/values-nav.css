@@ -162,3 +162,34 @@ body {
 	transform: rotate(45deg) translate(-5px, -6px);
 	background: white;
 }
+
+@media screen and (max-width: 648px) {
+	.hamburger {
+		display: block;
+		position: fixed;
+		cursor: pointer;
+		right: 2%;
+		top: 6%;
+		transform: translate(-5%, -50%);
+		z-index: 2;
+		transition: all 0.7s ease;
+	}
+}
+
+@media screen and (max-width: 342px) {
+	.nav-links.open {
+		clip-path: circle(1000px at 90% -10%);
+		-webkit-clip-path: circle(2000px at 90% -9%);
+	}
+	.nav-links {
+		position: fixed;
+		background: #131418;
+		height: 1100px;
+		width: 100%;
+		flex-direction: column;
+		clip-path: circle(50px at 90% -20%);
+		-webkit-clip-path: circle(50px at 90% -10%);
+		transition: all 1s ease-out;
+		pointer-events: none;
+	}
+}
