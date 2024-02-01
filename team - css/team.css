@@ -13,6 +13,11 @@
 	color: #e57221;
 }
 
+#orange-shift {
+	color: #e57221;
+	margin-left: 50px;
+}
+
 /* container1 */
 .container1 {
 	display: flex;
@@ -65,20 +70,21 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	height: 50vh;
+	height: 70vh;
 	background-color: #2d2d2d;
 }
 
 /* left */
 .items-left2 {
 	flex: 1;
-	margin: 0px 0px 0px 40px;
+	margin: 250px 0px 0px 250px;
 }
 
 /* right */
 
 .items-right2 {
 	flex: 1;
+	margin: 250px 200px 0px 0px;
 }
 
 .items-right2 a {
@@ -98,6 +104,154 @@
 }
 
 .button2 a:hover {
+	transform: translateY(-2px);
+	background-color: #ef4f15;
+}
+
+/* container3 */
+.container3 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 70vh;
+	background-color: none;
+}
+
+/* left */
+.items-left3 {
+	flex: 1;
+	background-image: url(../images/middel_organic_form.svg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: contain;
+}
+
+.text-items-left3 {
+	margin: 250px 0px 0px 250px;
+}
+
+/* right */
+
+.items-right3 {
+	flex: 1;
+	margin: 250px 0px 0px 40px;
+}
+
+.items-right3 a {
+	padding: 15px 25px;
+	background-color: #e57221;
+	text-decoration: none;
+	color: white;
+}
+
+.button3 a {
+	margin-top: 40px;
+	padding: 15px 25px;
+	background-color: #2d2d2d;
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+}
+
+.button3 a:hover {
+	transform: translateY(-2px);
+	background-color: #ef4f15;
+}
+
+/* container4 */
+.container4 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 70vh;
+	background-color: #2d2d2d;
+}
+
+/* left */
+.items-left4 {
+	flex: 1;
+}
+
+.text-items-left4 {
+	margin: 250px 0px 0px 250px;
+}
+
+/* right */
+
+.items-right4 {
+	flex: 1;
+	margin: 250px 0px 0px 40px;
+}
+
+.items-right4 a {
+	padding: 15px 25px;
+	background-color: #2d2d2d;
+	text-decoration: none;
+	color: white;
+}
+
+.button4 a {
+	margin-top: 40px;
+	padding: 15px 25px;
+	background-color: #e57221;
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+}
+
+.button4 a:hover {
+	transform: translateY(-2px);
+	background-color: #ef4f15;
+}
+
+/* container5 */
+.container5 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 70vh;
+	background-color: none;
+}
+
+/* left */
+.items-left5 {
+	flex: 1;
+	background-image: url(../images/bottom_organic_form.svg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: contain;
+}
+
+.text-items-left5 {
+	margin: 250px 0px 0px 250px;
+}
+
+/* right */
+
+.items-right5 {
+	flex: 1;
+	margin: 250px 0px 0px 40px;
+}
+
+.items-right5 a {
+	padding: 15px 25px;
+	background-color: #2d2d2d;
+	text-decoration: none;
+	color: white;
+}
+
+.button5 a {
+	margin-top: 40px;
+	padding: 15px 25px;
+	background-color: #2d2d2d;
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+}
+
+.button5 a:hover {
 	transform: translateY(-2px);
 	background-color: #ef4f15;
 }
