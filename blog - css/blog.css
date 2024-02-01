@@ -9,32 +9,33 @@
 	background-size: cover;
 }
 .name-item {
-	margin-left: 25%;
 	margin-top: 50px;
 	color: #2d2d2d;
 	font-size: 35px;
 	line-height: 0.9;
+	margin: auto;
 }
 .name-item2 {
 	margin-left: 100px;
 }
+.name-item2 + section {
+	margin-left: 30%;
+}
 .text {
-	font-size: 17px;
-	margin-left: 20%;
-	margin-right: 45%;
+    display: grid; 
+    border: solid #ef4f15;
+    grid-template-columns: 4fr 1fr;
+    width: 50vh;
 	color: #ef4f15;
-	border-style: solid;
-	padding: 15px;
-	border-color: #ef4f15;
-	line-height: 0.8;
-	margin-top: 15px;
+	text-decoration: none;
+	font-size: 17px;
+	margin-bottom: 20px;
+	align-items: center;
+	padding-left: 20px;
 }
 .text img {
-	margin-top: -15px;
 	height: 50px;
-	float: right;
 	width: 40px;
-	line-height: 0px;
 }
 
 /* OUR RECOMMENDATIONS */
