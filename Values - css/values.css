@@ -322,7 +322,6 @@ li p {
 
 	.center {
 		max-width: 100%;
-		margin-top: 5%;
 	}
 	.carousel li {
 		margin-right: -10px;
@@ -356,7 +355,6 @@ li p {
 
 	.name-item {
 		margin-left: 100px;
-		margin-top: 160px;
 	}
 	.hele-carousel {
 		margin-left: -10px;
@@ -394,7 +392,6 @@ li p {
 	}
 	.name-item {
 		margin-left: 90px;
-		margin-top: 160px;
 	}
 	.nav-dot {
 		bottom: -30px;

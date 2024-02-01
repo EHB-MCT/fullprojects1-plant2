@@ -44,7 +44,7 @@
 	display: flex;
 	height: 40vh;
 	width: auto;
-	padding-bottom: 500px;
+	padding-bottom: 450px;
 }
 .name-item3 {
 	margin-left: 5%;
@@ -118,7 +118,7 @@
 	.container {
 		background-image: none;
 	}
-	.text {
+	.text1 {
 		margin-right: 20%;
 		margin-left: 0;
 	}
@@ -167,7 +167,7 @@
 	}
 }
 @media screen and (max-width: 363px) {
-	.text {
+	.text1 {
 		margin-right: 0;
 	}
 }
